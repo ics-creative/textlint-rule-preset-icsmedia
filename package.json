@@ -1,0 +1,13 @@
+{
+  "name": "textlint-rule-preset-icsmedia",
+  "version": "1.0.0",
+  "description": "ics.media で利用されているテキストリントのルールです",
+  "main": "main.js",
+  "repository": "https://ics-ikeda@github.com/ics-creative/textlint-rule-preset-icsmedia.git",
+  "author": "ics-ikeda <ikeda@ics-web.jp>",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "textlint-rule-prh": "^5.0.1"
+  }
+}
