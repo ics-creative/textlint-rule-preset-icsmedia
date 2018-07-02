@@ -21,17 +21,12 @@ rules:
   - expected: デフォルト
     pattern:  ディフォルト
 
-  # patternは複数記述可能 patterns としてもOK
-  - expected: ハードウェアー
-    patterns:
-      - ハードウエアー # 正規表現に変換する都合上、より長いものを先に書いたほうがよい
-      - ハードウェア
-      - ハードウエア
+  - pattern: ウィンドウ
+    expected: ウインドウ
 
 #  - prh: 「サーバー」ではないでしょうか？
 #    patterns:
 #      - /^サーバ[^ー]/g
-
 
   - expected: webpack
     patterns:
@@ -45,35 +40,28 @@ rules:
       - adobemax
 
   # 冗長な表現
-  - expected: します（冗長な表現ではないでしょうか？）
+  - expected: します
     patters:
       - していきます
+    prh: 冗長な表現ではないでしょうか？
 
   # 冗長な表現
-  - expected: "冗長な表現ではないでしょうか？"
+  - expected: できます
     patterns:
-      - することが
+      - することができます
+    prh: 冗長な表現ではないでしょうか？
 
   # 冗長な表現
-  - expected: （冗長な表現ではないでしょうか？）
+  - expected: なりまして
     patterns:
       - なってしまって
-
-  # 冗長な表現
-  - expected: （冗長な表現ではないでしょうか？）
-    patterns:
-      - なったり
-
-  # 冗長な表現
-  - expected: （敬語は不要）
-    patterns:
-      - おります
+    prh: 口語表現ではないでしょうか？
 
   #  誤用
-  - expected: ハードルが高い 等（誤用の可能性があります。また、誤用自信も広まっているため、あまり使用しないほうが良いでしょう）
+  - expected: ハードルが高い
     patterns:
       - 敷居が高い
-
+    prh: 誤用の可能性があります。また、誤用も広まっているため、あまり使用しないほうが良いでしょう
 
   # 誤字修正
   - expected: GitHub
@@ -138,22 +126,6 @@ rules:
       - VisualStudioCode
 
   # ------------------------------------
-  # 書籍独自ルール
-  # ------------------------------------
-
-  - pattern: エレメント
-    expected: 要素
-
-  - pattern: ウィンドウ
-    expected: ウインドウ
-
-  - pattern: WebAudio API
-    expected: Web Audio API
-
-  - pattern: /^(\w+)タグ/g
-    expected: $1要素
-
-  # ------------------------------------
   # まだ「文字校正」で消耗してるの？ LIGブログの表記ルールについて整理してみた | 東京上野のWeb制作会社LIG
   # https://liginc.co.jp/402874
   # ------------------------------------
@@ -161,47 +133,61 @@ rules:
   # 修飾語と形容詞
   - pattern: そう言う
     expected: そういう
+    prh: 漢字で書かず、ひらがなで書くと読みやすくなります
 
   - pattern: そんな風な
     expected: そんなふうな
+    prh: 漢字で書かず、ひらがなで書くと読みやすくなります
 
   - pattern: 凄い
     expected: すごい
+    prh: 漢字で書かず、ひらがなで書くと読みやすくなります
 
   - pattern: 無い
     expected: ない
+    prh: 漢字で書かず、ひらがなで書くと読みやすくなります
 
   - pattern: 易い
     expected: やすい
+    prh: 漢字で書かず、ひらがなで書くと読みやすくなります
 
   # 動詞
   - pattern: 分かる
     expected: わかる
+    prh: 漢字で書かず、ひらがなで書くと読みやすくなります
 
   - pattern: 電話を掛ける
     expected: 電話をかける
+    prh: 漢字で書かず、ひらがなで書くと読みやすくなります
 
   - pattern: 捗る
     expected: はかどる
+    prh: 漢字で書かず、ひらがなで書くと読みやすくなります
 
   - pattern: 在る
     expected: ある
+    prh: 漢字で書かず、ひらがなで書くと読みやすくなります
 
   - pattern: 有る
     expected: ある
+    prh: 漢字で書かず、ひらがなで書くと読みやすくなります
 
   - pattern: 出来る
     expected: できる
+    prh: 漢字で書かず、ひらがなで書くと読みやすくなります
 
   # 補助動詞
   - pattern: して頂く
     expected: していただく
+    prh: 漢字で書かず、ひらがなで書くと読みやすくなります
 
   - pattern: 持って来る
     expected: 持ってくる
+    prh: 漢字で書かず、ひらがなで書くと読みやすくなります
 
   - pattern: 育って行く
     expected: 育っていく
+    prh: 漢字で書かず、ひらがなで書くと読みやすくなります
 
   # 副詞
 #  - pattern: 更に
@@ -209,9 +195,11 @@ rules:
 # 「変更に」がアウトのためコメントアウト
   - pattern: 殆ど
     expected: ほとんど
+    prh: 漢字で書かず、ひらがなで書くと読みやすくなります
 
   - pattern: 全て
     expected: すべて
+    prh: 漢字で書かず、ひらがなで書くと読みやすくなります
 
 #  - pattern: 後で
 #    expected: あとで
@@ -219,31 +207,41 @@ rules:
 
   - pattern: 予め
     expected: あらかじめ
+    prh: 漢字で書かず、ひらがなで書くと読みやすくなります
 
   - pattern: 時々
     expected: ときどき
+    prh: 漢字で書かず、ひらがなで書くと読みやすくなります
 
   - pattern: 未だに
     expected: いまだに
+    prh: 漢字で書かず、ひらがなで書くと読みやすくなります
 
   - pattern: 所謂
     expected: いわゆる
+    prh: 漢字で書かず、ひらがなで書くと読みやすくなります
 
   - pattern: 何時か
     expected: いつか
+    prh: 漢字で書かず、ひらがなで書くと読みやすくなります
 
 
   - pattern: 何処か
     expected: どこか
+    prh: 漢字で書かず、ひらがなで書くと読みやすくなります
 
   - pattern: 何故か
     expected: なぜか
+    prh: 漢字で書かず、ひらがなで書くと読みやすくなります
 
   - pattern: 次第に
     expected: しだいに
+    prh: 漢字で書かず、ひらがなで書くと読みやすくなります
 
   - pattern: 中でも
     expected: なかでも
+    prh: 漢字で書かず、ひらがなで書くと読みやすくなります
 
   - pattern: 中には
     expected: なかには
+    prh: 漢字で書かず、ひらがなで書くと読みやすくなります
