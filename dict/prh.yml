@@ -129,6 +129,61 @@ rules:
       - VisualStudioCode
 
   # ------------------------------------
+  # 間違いやすい固有名詞
+  # ------------------------------------
+
+  - expected: キユーピー
+    patterns: キューピー
+
+  - expected: キヤノン
+    patterns: キャノン
+
+  - expected: 富士フイルム
+    patterns: 
+      - 富士フィルム
+      - フジフイルム
+      - フジフィルム
+
+  - expected: エドウイン
+    patterns: エドウィン
+
+  - expected: 味の素ゼネラルフーヅ
+    patterns: 味の素ゼネラルフーズ
+
+  - expected: ビックカメラ
+    patterns: ビッグカメラ
+
+  - expected: 日本コロムビア
+    patterns: 日本コロンビア
+
+  - expected: 三菱レイヨン
+    patterns: 三菱レーヨン
+
+  - expected: アメリカン・エキスプレス
+    patterns: アメリカン・エクスプレス
+
+  - expected: 大平洋金属
+    patterns: 太平洋金属
+
+  - expected: セブン–イレブン
+    patterns: セブンイレブン
+
+  - expected: ドン・キホーテ
+    patterns: ドンキホーテ
+
+  - expected: ニッカウヰスキー
+    patterns: ニッカウイスキー
+
+  - expected: ブリヂストン
+    patterns: ブリジストン
+
+  - expected: 日本コロムビア
+    patterns: 日本コロンビア
+
+  - expected: シヤチハタ株
+    patterns: シャチハタ株
+
+  # ------------------------------------
   # まだ「文字校正」で消耗してるの？ LIGブログの表記ルールについて整理してみた | 東京上野のWeb制作会社LIG
   # https://liginc.co.jp/402874
   # ------------------------------------
