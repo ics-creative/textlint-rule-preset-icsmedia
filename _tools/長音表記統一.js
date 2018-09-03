@@ -2,7 +2,8 @@
 // 長音ありのリスト
 //
 // 参考: http://www.atmarkit.co.jp/news/200807/25/microsoft.html
-const list = ['アクセサー',
+const list = [
+  'アクセサー',
   'アクター',
   'アクティベーター',
   'アグリゲーター',
@@ -61,7 +62,7 @@ const list = ['アクセサー',
   'オペレーター',
   'オルタネーター',
   'カウンター',
-  'カスタマー',
+  'カスタマー', // 「カスタマイズ」にぶつかってしまう
   'カスタマイザー',
   'カテゴライザー',
   'ガバナー',
@@ -317,11 +318,10 @@ const list = ['アクセサー',
   'ロケーター',
 ];
 
-
 const arr = list.map(str => {
   const original = str.slice(0, -1);
   return `
-  - pattern: /${original}(?!(ー))/
+  - pattern: /${original}(?!([ーァ-ヴ]))/
     expected: ${str}`;
 });
 
