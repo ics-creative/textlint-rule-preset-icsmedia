@@ -2,8 +2,11 @@
   "rules": {
     "preset-japanese": {
       "sentence-length": {
-        "max": 150
-      }
+        "max": 150,
+      },
+      "max-ten": {
+        "max": 4
+      },
     },
     "preset-jtf-style": {
       "1.2.1.句点(。)と読点(、)": false,
