@@ -1,0 +1,941 @@
+# 長音ありのリスト（動的に生成）
+rules:
+
+  - pattern: /アクセサ(?!(ー))/
+    expected: アクセサー
+
+  - pattern: /アクタ(?!(ー))/
+    expected: アクター
+
+  - pattern: /アクティベータ(?!(ー))/
+    expected: アクティベーター
+
+  - pattern: /アグリゲータ(?!(ー))/
+    expected: アグリゲーター
+
+  - pattern: /アセンブラ(?!(ー))/
+    expected: アセンブラー
+
+  - pattern: /アダプタ(?!(ー))/
+    expected: アダプター
+
+  - pattern: /アップデータ(?!(ー))/
+    expected: アップデーター
+
+  - pattern: /アップローダ(?!(ー))/
+    expected: アップローダー
+
+  - pattern: /アドバイザ(?!(ー))/
+    expected: アドバイザー
+
+  - pattern: /アドミニストレータ(?!(ー))/
+    expected: アドミニストレーター
+
+  - pattern: /アナライザ(?!(ー))/
+    expected: アナライザー
+
+  - pattern: /アニメータ(?!(ー))/
+    expected: アニメーター
+
+  - pattern: /アロケータ(?!(ー))/
+    expected: アロケーター
+
+  - pattern: /アンインストーラ(?!(ー))/
+    expected: アンインストーラー
+
+  - pattern: /アンカ(?!(ー))/
+    expected: アンカー
+
+  - pattern: /アンギュラ(?!(ー))/
+    expected: アンギュラー
+
+  - pattern: /アンパッカ(?!(ー))/
+    expected: アンパッカー
+
+  - pattern: /イコライザ(?!(ー))/
+    expected: イコライザー
+
+  - pattern: /イニシエータ(?!(ー))/
+    expected: イニシエーター
+
+  - pattern: /イニシャライザ(?!(ー))/
+    expected: イニシャライザー
+
+  - pattern: /イネーブラ(?!(ー))/
+    expected: イネーブラー
+
+  - pattern: /イメージセッタ(?!(ー))/
+    expected: イメージセッター
+
+  - pattern: /インサータ(?!(ー))/
+    expected: インサーター
+
+  - pattern: /インジェクタ(?!(ー))/
+    expected: インジェクター
+
+  - pattern: /インジケータ(?!(ー))/
+    expected: インジケーター
+
+  - pattern: /インストーラ(?!(ー))/
+    expected: インストーラー
+
+  - pattern: /インスペクタ(?!(ー))/
+    expected: インスペクター
+
+  - pattern: /インターセプタ(?!(ー))/
+    expected: インターセプター
+
+  - pattern: /インタープリタ(?!(ー))/
+    expected: インタープリター
+
+  - pattern: /インデクサ(?!(ー))/
+    expected: インデクサー
+
+  - pattern: /インテグレータ(?!(ー))/
+    expected: インテグレーター
+
+  - pattern: /インバータ(?!(ー))/
+    expected: インバーター
+
+  - pattern: /インバリデータ(?!(ー))/
+    expected: インバリデーター
+
+  - pattern: /インポータ(?!(ー))/
+    expected: インポーター
+
+  - pattern: /ウォーカ(?!(ー))/
+    expected: ウォーカー
+
+  - pattern: /ウォータ(?!(ー))/
+    expected: ウォーター
+
+  - pattern: /ウォリア(?!(ー))/
+    expected: ウォリアー
+
+  - pattern: /エキスパンダ(?!(ー))/
+    expected: エキスパンダー
+
+  - pattern: /エクスチェンジャ(?!(ー))/
+    expected: エクスチェンジャー
+
+  - pattern: /エクステンダ(?!(ー))/
+    expected: エクステンダー
+
+  - pattern: /エクスプローラ(?!(ー))/
+    expected: エクスプローラー
+
+  - pattern: /エクスポータ(?!(ー))/
+    expected: エクスポーター
+
+  - pattern: /エスカレータ(?!(ー))/
+    expected: エスカレーター
+
+  - pattern: /エゼクタ(?!(ー))/
+    expected: エゼクター
+
+  - pattern: /エディタ(?!(ー))/
+    expected: エディター
+
+  - pattern: /エバリュエータ(?!(ー))/
+    expected: エバリュエーター
+
+  - pattern: /エミュレータ(?!(ー))/
+    expected: エミュレーター
+
+  - pattern: /エレベータ(?!(ー))/
+    expected: エレベーター
+
+  - pattern: /エンコーダ(?!(ー))/
+    expected: エンコーダー
+
+  - pattern: /オーガナイザ(?!(ー))/
+    expected: オーガナイザー
+
+  - pattern: /オートダイヤラ(?!(ー))/
+    expected: オートダイヤラー
+
+  - pattern: /オートフィルタ(?!(ー))/
+    expected: オートフィルター
+
+  - pattern: /オシレータ(?!(ー))/
+    expected: オシレーター
+
+  - pattern: /オフィサ(?!(ー))/
+    expected: オフィサー
+
+  - pattern: /オブザーバ(?!(ー))/
+    expected: オブザーバー
+
+  - pattern: /オプティマイザ(?!(ー))/
+    expected: オプティマイザー
+
+  - pattern: /オペレータ(?!(ー))/
+    expected: オペレーター
+
+  - pattern: /オルタネータ(?!(ー))/
+    expected: オルタネーター
+
+  - pattern: /カウンタ(?!(ー))/
+    expected: カウンター
+
+  - pattern: /カスタマ(?!(ー))/
+    expected: カスタマー
+
+  - pattern: /カスタマイザ(?!(ー))/
+    expected: カスタマイザー
+
+  - pattern: /カテゴライザ(?!(ー))/
+    expected: カテゴライザー
+
+  - pattern: /ガバナ(?!(ー))/
+    expected: ガバナー
+
+  - pattern: /カプラ(?!(ー))/
+    expected: カプラー
+
+  - pattern: /カムコーダ(?!(ー))/
+    expected: カムコーダー
+
+  - pattern: /キャラクタ(?!(ー))/
+    expected: キャラクター
+
+  - pattern: /キュイラシェ(?!(ー))/
+    expected: キュイラシェー
+
+  - pattern: /クラスタ(?!(ー))/
+    expected: クラスター
+
+  - pattern: /クリーナ(?!(ー))/
+    expected: クリーナー
+
+  - pattern: /クリエータ(?!(ー))/
+    expected: クリエーター
+
+  - pattern: /クローラ(?!(ー))/
+    expected: クローラー
+
+  - pattern: /コーディネータ(?!(ー))/
+    expected: コーディネーター
+
+  - pattern: /コレクタ(?!(ー))/
+    expected: コレクター
+
+  - pattern: /コンシューマ(?!(ー))/
+    expected: コンシューマー
+
+  - pattern: /コンストラクタ(?!(ー))/
+    expected: コンストラクター
+
+  - pattern: /コンセントレータ(?!(ー))/
+    expected: コンセントレーター
+
+  - pattern: /コンダクタ(?!(ー))/
+    expected: コンダクター
+
+  - pattern: /コンテナ(?!(ー))/
+    expected: コンテナー
+
+  - pattern: /コンデンサ(?!(ー))/
+    expected: コンデンサー
+
+  - pattern: /コントリビュータ(?!(ー))/
+    expected: コントリビューター
+
+  - pattern: /コントローラ(?!(ー))/
+    expected: コントローラー
+
+  - pattern: /コンバータ(?!(ー))/
+    expected: コンバーター
+
+  - pattern: /コンピュータ(?!(ー))/
+    expected: コンピューター
+
+  - pattern: /コンフィギュレータ(?!(ー))/
+    expected: コンフィギュレーター
+
+  - pattern: /コンプレッサ(?!(ー))/
+    expected: コンプレッサー
+
+  - pattern: /コンベクタ(?!(ー))/
+    expected: コンベクター
+
+  - pattern: /コンペンセータ(?!(ー))/
+    expected: コンペンセーター
+
+  - pattern: /コンポーザ(?!(ー))/
+    expected: コンポーザー
+
+  - pattern: /コンポジタ(?!(ー))/
+    expected: コンポジター
+
+  - pattern: /サブウーファ(?!(ー))/
+    expected: サブウーファー
+
+  - pattern: /サブコンテナ(?!(ー))/
+    expected: サブコンテナー
+
+  - pattern: /サブスクライバ(?!(ー))/
+    expected: サブスクライバー
+
+  - pattern: /サブフィルタ(?!(ー))/
+    expected: サブフィルター
+
+  - pattern: /サブフォルダ(?!(ー))/
+    expected: サブフォルダー
+
+  - pattern: /サブマスタ(?!(ー))/
+    expected: サブマスター
+
+  - pattern: /サプライヤ(?!(ー))/
+    expected: サプライヤー
+
+  - pattern: /サブレイヤ(?!(ー))/
+    expected: サブレイヤー
+
+  - pattern: /サプレッサ(?!(ー))/
+    expected: サプレッサー
+
+  - pattern: /サマライザ(?!(ー))/
+    expected: サマライザー
+
+  - pattern: /シアタ(?!(ー))/
+    expected: シアター
+
+  - pattern: /シーケンサ(?!(ー))/
+    expected: シーケンサー
+
+  - pattern: /シェーダ(?!(ー))/
+    expected: シェーダー
+
+  - pattern: /ジェネレータ(?!(ー))/
+    expected: ジェネレーター
+
+  - pattern: /シフタ(?!(ー))/
+    expected: シフター
+
+  - pattern: /シャッタ(?!(ー))/
+    expected: シャッター
+
+  - pattern: /ジャンパ(?!(ー))/
+    expected: ジャンパー
+
+  - pattern: /シリアライザ(?!(ー))/
+    expected: シリアライザー
+
+  - pattern: /シリンダ(?!(ー))/
+    expected: シリンダー
+
+  - pattern: /シンクロナイザ(?!(ー))/
+    expected: シンクロナイザー
+
+  - pattern: /シンセサイザ(?!(ー))/
+    expected: シンセサイザー
+
+  - pattern: /スイッチャ(?!(ー))/
+    expected: スイッチャー
+
+  - pattern: /スーパーバイザ(?!(ー))/
+    expected: スーパーバイザー
+
+  - pattern: /スーパーバイザ(?!(ー))/
+    expected: スーパーバイザー
+
+  - pattern: /スーペリア(?!(ー))/
+    expected: スーペリアー
+
+  - pattern: /スカベンジャ(?!(ー))/
+    expected: スカベンジャー
+
+  - pattern: /スカラ(?!(ー))/
+    expected: スカラー
+
+  - pattern: /スキャッタ(?!(ー))/
+    expected: スキャッター
+
+  - pattern: /スキャナ(?!(ー))/
+    expected: スキャナー
+
+  - pattern: /スクリーナ(?!(ー))/
+    expected: スクリーナー
+
+  - pattern: /スクリーンセーバ(?!(ー))/
+    expected: スクリーンセーバー
+
+  - pattern: /スクリプタ(?!(ー))/
+    expected: スクリプター
+
+  - pattern: /スクレーパ(?!(ー))/
+    expected: スクレーパー
+
+  - pattern: /スタッカ(?!(ー))/
+    expected: スタッカー
+
+  - pattern: /ステージャ(?!(ー))/
+    expected: ステージャー
+
+  - pattern: /ステマ(?!(ー))/
+    expected: ステマー
+
+  - pattern: /ストーカ(?!(ー))/
+    expected: ストーカー
+
+  - pattern: /スニファ(?!(ー))/
+    expected: スニファー
+
+  - pattern: /スパイダ(?!(ー))/
+    expected: スパイダー
+
+  - pattern: /スピア(?!(ー))/
+    expected: スピアー
+
+  - pattern: /スピーカ(?!(ー))/
+    expected: スピーカー
+
+  - pattern: /スプーラ(?!(ー))/
+    expected: スプーラー
+
+  - pattern: /スプリッタ(?!(ー))/
+    expected: スプリッター
+
+  - pattern: /スペーサ(?!(ー))/
+    expected: スペーサー
+
+  - pattern: /スライサ(?!(ー))/
+    expected: スライサー
+
+  - pattern: /スライダ(?!(ー))/
+    expected: スライダー
+
+  - pattern: /セクタ(?!(ー))/
+    expected: セクター
+
+  - pattern: /セパレータ(?!(ー))/
+    expected: セパレーター
+
+  - pattern: /セレクタ(?!(ー))/
+    expected: セレクター
+
+  - pattern: /センサ(?!(ー))/
+    expected: センサー
+
+  - pattern: /センタ(?!(ー))/
+    expected: センター
+
+  - pattern: /センダ(?!(ー))/
+    expected: センダー
+
+  - pattern: /タイプライタ(?!(ー))/
+    expected: タイプライター
+
+  - pattern: /タイマ(?!(ー))/
+    expected: タイマー
+
+  - pattern: /ダイヤラ(?!(ー))/
+    expected: ダイヤラー
+
+  - pattern: /ダウンローダ(?!(ー))/
+    expected: ダウンローダー
+
+  - pattern: /チェンジャ(?!(ー))/
+    expected: チェンジャー
+
+  - pattern: /チャプタ(?!(ー))/
+    expected: チャプター
+
+  - pattern: /チャレンジャ(?!(ー))/
+    expected: チャレンジャー
+
+  - pattern: /チューナ(?!(ー))/
+    expected: チューナー
+
+  - pattern: /ディザ(?!(ー))/
+    expected: ディザー
+
+  - pattern: /ディストリビュータ(?!(ー))/
+    expected: ディストリビューター
+
+  - pattern: /ディスパッチャ(?!(ー))/
+    expected: ディスパッチャー
+
+  - pattern: /ディスペンサ(?!(ー))/
+    expected: ディスペンサー
+
+  - pattern: /ディバイダ(?!(ー))/
+    expected: ディバイダー
+
+  - pattern: /ディフューザ(?!(ー))/
+    expected: ディフューザー
+
+  - pattern: /ディレクタ(?!(ー))/
+    expected: ディレクター
+
+  - pattern: /テクスチャライザ(?!(ー))/
+    expected: テクスチャライザー
+
+  - pattern: /デコーダ(?!(ー))/
+    expected: デコーダー
+
+  - pattern: /デザイナ(?!(ー))/
+    expected: デザイナー
+
+  - pattern: /デジタイザ(?!(ー))/
+    expected: デジタイザー
+
+  - pattern: /デシリアライザ(?!(ー))/
+    expected: デシリアライザー
+
+  - pattern: /テスタ(?!(ー))/
+    expected: テスター
+
+  - pattern: /デストラクタ(?!(ー))/
+    expected: デストラクター
+
+  - pattern: /デスプーラ(?!(ー))/
+    expected: デスプーラー
+
+  - pattern: /デバイザ(?!(ー))/
+    expected: デバイザー
+
+  - pattern: /デバッガ(?!(ー))/
+    expected: デバッガー
+
+  - pattern: /デベロッパ(?!(ー))/
+    expected: デベロッパー
+
+  - pattern: /デマルチプレクサ(?!(ー))/
+    expected: デマルチプレクサー
+
+  - pattern: /デリミタ(?!(ー))/
+    expected: デリミター
+
+  - pattern: /ドライバ(?!(ー))/
+    expected: ドライバー
+
+  - pattern: /ドライヤ(?!(ー))/
+    expected: ドライヤー
+
+  - pattern: /トラクタ(?!(ー))/
+    expected: トラクター
+
+  - pattern: /トラッカ(?!(ー))/
+    expected: トラッカー
+
+  - pattern: /トランシーバ(?!(ー))/
+    expected: トランシーバー
+
+  - pattern: /トランスデューサ(?!(ー))/
+    expected: トランスデューサー
+
+  - pattern: /トランスファ(?!(ー))/
+    expected: トランスファー
+
+  - pattern: /トランスフォーマ(?!(ー))/
+    expected: トランスフォーマー
+
+  - pattern: /トランスポンダ(?!(ー))/
+    expected: トランスポンダー
+
+  - pattern: /トランスレータ(?!(ー))/
+    expected: トランスレーター
+
+  - pattern: /トリガ(?!(ー))/
+    expected: トリガー
+
+  - pattern: /トリマ(?!(ー))/
+    expected: トリマー
+
+  - pattern: /トレーサ(?!(ー))/
+    expected: トレーサー
+
+  - pattern: /トレーラ(?!(ー))/
+    expected: トレーラー
+
+  - pattern: /ドロア(?!(ー))/
+    expected: ドロアー
+
+  - pattern: /ナビゲータ(?!(ー))/
+    expected: ナビゲーター
+
+  - pattern: /ナレータ(?!(ー))/
+    expected: ナレーター
+
+  - pattern: /ノーマライザ(?!(ー))/
+    expected: ノーマライザー
+
+  - pattern: /パートナ(?!(ー))/
+    expected: パートナー
+
+  - pattern: /バーバライザ(?!(ー))/
+    expected: バーバライザー
+
+  - pattern: /バインダ(?!(ー))/
+    expected: バインダー
+
+  - pattern: /パケッタイザ(?!(ー))/
+    expected: パケッタイザー
+
+  - pattern: /パスファインダ(?!(ー))/
+    expected: パスファインダー
+
+  - pattern: /バスマスタ(?!(ー))/
+    expected: バスマスター
+
+  - pattern: /パッケージャ(?!(ー))/
+    expected: パッケージャー
+
+  - pattern: /バッファ(?!(ー))/
+    expected: バッファー
+
+  - pattern: /パブリッシャ(?!(ー))/
+    expected: パブリッシャー
+
+  - pattern: /パラメータ(?!(ー))/
+    expected: パラメーター
+
+  - pattern: /バランサ(?!(ー))/
+    expected: バランサー
+
+  - pattern: /バリオメータ(?!(ー))/
+    expected: バリオメーター
+
+  - pattern: /バリデータ(?!(ー))/
+    expected: バリデーター
+
+  - pattern: /パルベライザ(?!(ー))/
+    expected: パルベライザー
+
+  - pattern: /ハンドラ(?!(ー))/
+    expected: ハンドラー
+
+  - pattern: /ハンマ(?!(ー))/
+    expected: ハンマー
+
+  - pattern: /ビジュアライザ(?!(ー))/
+    expected: ビジュアライザー
+
+  - pattern: /ピッカ(?!(ー))/
+    expected: ピッカー
+
+  - pattern: /ビヘイビア(?!(ー))/
+    expected: ビヘイビアー
+
+  - pattern: /ピュアライザ(?!(ー))/
+    expected: ピュアライザー
+
+  - pattern: /ビューア(?!(ー))/
+    expected: ビューアー
+
+  - pattern: /ビルダ(?!(ー))/
+    expected: ビルダー
+
+  - pattern: /ファイナライザ(?!(ー))/
+    expected: ファイナライザー
+
+  - pattern: /ファイバ(?!(ー))/
+    expected: ファイバー
+
+  - pattern: /ファインダ(?!(ー))/
+    expected: ファインダー
+
+  - pattern: /ファクタ(?!(ー))/
+    expected: ファクター
+
+  - pattern: /フィーダ(?!(ー))/
+    expected: フィーダー
+
+  - pattern: /フィニッシャ(?!(ー))/
+    expected: フィニッシャー
+
+  - pattern: /フィルタ(?!(ー))/
+    expected: フィルター
+
+  - pattern: /フィンガ(?!(ー))/
+    expected: フィンガー
+
+  - pattern: /ブースタ(?!(ー))/
+    expected: ブースター
+
+  - pattern: /ブートローダ(?!(ー))/
+    expected: ブートローダー
+
+  - pattern: /フェイダ(?!(ー))/
+    expected: フェイダー
+
+  - pattern: /フォルダ(?!(ー))/
+    expected: フォルダー
+
+  - pattern: /フォワーダ(?!(ー))/
+    expected: フォワーダー
+
+  - pattern: /フッタ(?!(ー))/
+    expected: フッター
+
+  - pattern: /ブラウザ(?!(ー))/
+    expected: ブラウザー
+
+  - pattern: /プランジャ(?!(ー))/
+    expected: プランジャー
+
+  - pattern: /プランナ(?!(ー))/
+    expected: プランナー
+
+  - pattern: /プリマスタ(?!(ー))/
+    expected: プリマスター
+
+  - pattern: /プリンタ(?!(ー))/
+    expected: プリンター
+
+  - pattern: /プルーナ(?!(ー))/
+    expected: プルーナー
+
+  - pattern: /ブレーカ(?!(ー))/
+    expected: ブレーカー
+
+  - pattern: /プレースホルダ(?!(ー))/
+    expected: プレースホルダー
+
+  - pattern: /フレーバ(?!(ー))/
+    expected: フレーバー
+
+  - pattern: /プレゼンタ(?!(ー))/
+    expected: プレゼンター
+
+  - pattern: /プレビューア(?!(ー))/
+    expected: プレビューアー
+
+  - pattern: /プレフィルタ(?!(ー))/
+    expected: プレフィルター
+
+  - pattern: /ブレンダ(?!(ー))/
+    expected: ブレンダー
+
+  - pattern: /ブローカ(?!(ー))/
+    expected: ブローカー
+
+  - pattern: /ブロードキャスタ(?!(ー))/
+    expected: ブロードキャスター
+
+  - pattern: /プロジェクタ(?!(ー))/
+    expected: プロジェクター
+
+  - pattern: /ブロッカ(?!(ー))/
+    expected: ブロッカー
+
+  - pattern: /プロッタ(?!(ー))/
+    expected: プロッター
+
+  - pattern: /プロテクタ(?!(ー))/
+    expected: プロテクター
+
+  - pattern: /プロデューサ(?!(ー))/
+    expected: プロデューサー
+
+  - pattern: /プロバイダ(?!(ー))/
+    expected: プロバイダー
+
+  - pattern: /プロファイラ(?!(ー))/
+    expected: プロファイラー
+
+  - pattern: /ベアラ(?!(ー))/
+    expected: ベアラー
+
+  - pattern: /ページャ(?!(ー))/
+    expected: ページャー
+
+  - pattern: /ベクタ(?!(ー))/
+    expected: ベクター
+
+  - pattern: /ヘッダ(?!(ー))/
+    expected: ヘッダー
+
+  - pattern: /ヘリコプタ(?!(ー))/
+    expected: ヘリコプター
+
+  - pattern: /ヘルパ(?!(ー))/
+    expected: ヘルパー
+
+  - pattern: /ベンダ(?!(ー))/
+    expected: ベンダー
+
+  - pattern: /ボイジャ(?!(ー))/
+    expected: ボイジャー
+
+  - pattern: /ポインタ(?!(ー))/
+    expected: ポインター
+
+  - pattern: /ポストマスタ(?!(ー))/
+    expected: ポストマスター
+
+  - pattern: /ポリマ(?!(ー))/
+    expected: ポリマー
+
+  - pattern: /ホルダ(?!(ー))/
+    expected: ホルダー
+
+  - pattern: /マーシャラ(?!(ー))/
+    expected: マーシャラー
+
+  - pattern: /マイナ(?!(ー))/
+    expected: マイナー
+
+  - pattern: /マインスイーパ(?!(ー))/
+    expected: マインスイーパー
+
+  - pattern: /マスタ(?!(ー))/
+    expected: マスター
+
+  - pattern: /マッパ(?!(ー))/
+    expected: マッパー
+
+  - pattern: /マニピュレータ(?!(ー))/
+    expected: マニピュレーター
+
+  - pattern: /マネージャ(?!(ー))/
+    expected: マネージャー
+
+  - pattern: /マルチフィーダ(?!(ー))/
+    expected: マルチフィーダー
+
+  - pattern: /マルチプライヤ(?!(ー))/
+    expected: マルチプライヤー
+
+  - pattern: /マルチプレクサ(?!(ー))/
+    expected: マルチプレクサー
+
+  - pattern: /マルチマスタ(?!(ー))/
+    expected: マルチマスター
+
+  - pattern: /マルチモニタ(?!(ー))/
+    expected: マルチモニター
+
+  - pattern: /マルチレイヤ(?!(ー))/
+    expected: マルチレイヤー
+
+  - pattern: /ミキサ(?!(ー))/
+    expected: ミキサー
+
+  - pattern: /ミニドライバ(?!(ー))/
+    expected: ミニドライバー
+
+  - pattern: /ミニフィルタ(?!(ー))/
+    expected: ミニフィルター
+
+  - pattern: /ミューテータ(?!(ー))/
+    expected: ミューテーター
+
+  - pattern: /メッセンジャ(?!(ー))/
+    expected: メッセンジャー
+
+  - pattern: /メディエイタ(?!(ー))/
+    expected: メディエイター
+
+  - pattern: /メンバ(?!(ー))/
+    expected: メンバー
+
+  - pattern: /メンバーシッ(?!(ー))/
+    expected: メンバーシップ
+
+  - pattern: /モジュラ(?!(ー))/
+    expected: モジュラー
+
+  - pattern: /モディファイヤ(?!(ー))/
+    expected: モディファイヤー
+
+  - pattern: /モデレータ(?!(ー))/
+    expected: モデレーター
+
+  - pattern: /モニカ(?!(ー))/
+    expected: モニカー
+
+  - pattern: /モニタ(?!(ー))/
+    expected: モニター
+
+  - pattern: /ライザ(?!(ー))/
+    expected: ライザー
+
+  - pattern: /ライセンサ(?!(ー))/
+    expected: ライセンサー
+
+  - pattern: /ライタ(?!(ー))/
+    expected: ライター
+
+  - pattern: /ラスタ(?!(ー))/
+    expected: ラスター
+
+  - pattern: /ラスタライザ(?!(ー))/
+    expected: ラスタライザー
+
+  - pattern: /リアクタ(?!(ー))/
+    expected: リアクター
+
+  - pattern: /リクエスタ(?!(ー))/
+    expected: リクエスター
+
+  - pattern: /リスナ(?!(ー))/
+    expected: リスナー
+
+  - pattern: /リゾルバ(?!(ー))/
+    expected: リゾルバー
+
+  - pattern: /リダイレクタ(?!(ー))/
+    expected: リダイレクター
+
+  - pattern: /リパッケージャ(?!(ー))/
+    expected: リパッケージャー
+
+  - pattern: /リパブリッシャ(?!(ー))/
+    expected: リパブリッシャー
+
+  - pattern: /リファクタ(?!(ー))/
+    expected: リファクター
+
+  - pattern: /リフレッシャ(?!(ー))/
+    expected: リフレッシャー
+
+  - pattern: /リマインダ(?!(ー))/
+    expected: リマインダー
+
+  - pattern: /リンカ(?!(ー))/
+    expected: リンカー
+
+  - pattern: /レイヤ(?!(ー))/
+    expected: レイヤー
+
+  - pattern: /レコーダ(?!(ー))/
+    expected: レコーダー
+
+  - pattern: /レコグナイザ(?!(ー))/
+    expected: レコグナイザー
+
+  - pattern: /レシーバ(?!(ー))/
+    expected: レシーバー
+
+  - pattern: /レジストラ(?!(ー))/
+    expected: レジストラー
+
+  - pattern: /レスポンダ(?!(ー))/
+    expected: レスポンダー
+
+  - pattern: /レビューア(?!(ー))/
+    expected: レビューアー
+
+  - pattern: /レプリケータ(?!(ー))/
+    expected: レプリケーター
+
+  - pattern: /レベラ(?!(ー))/
+    expected: レベラー
+
+  - pattern: /レポータ(?!(ー))/
+    expected: レポーター
+
+  - pattern: /レンダ(?!(ー))/
+    expected: レンダー
+
+  - pattern: /レンダラ(?!(ー))/
+    expected: レンダラー
+
+  - pattern: /ローカライザ(?!(ー))/
+    expected: ローカライザー
+
+  - pattern: /ロケータ(?!(ー))/
+    expected: ロケーター
