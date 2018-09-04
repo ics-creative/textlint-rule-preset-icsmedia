@@ -489,8 +489,8 @@ rules:
     patterns: 采配をふるう
   - expected: 肴
     patterns: 酒の肴
-  - expected: 鹿爪らしい顔
-    patterns: しかめつらしい顔
+  - expected: しかつめらしい
+    patterns: しかめつらしい
   - expected: 歯牙にもかけない
     patterns: 鼻にもかけない
   - expected: 酒を酌み交わす
@@ -611,3 +611,95 @@ rules:
     patterns: 安くつく
   - expected: 論陣を張る
     patterns: 論戦を張る
+
+
+  - patterns: 二の舞を踏む
+    expected: 二の舞を演じる
+
+  - patterns: 寸暇を惜しまず
+    expected: 寸暇を惜しんで
+
+  - patterns: 熱にうなされる
+    expected: 熱に浮かされる
+
+  - patterns: 台風一家
+    expected: 台風一過
+
+  - patterns: 素人はだし
+    expected: 玄人はだし
+
+  - patterns: 青田刈り
+    expected: 青田買い
+
+  - patterns: 取り付く暇がない
+    expected: 取り付く島がない
+
+  - patterns: 堂にはいる
+    expected: 堂にいる
+
+  - patterns: 足元をすくう
+    expected: 足をすくう
+
+  - patterns: 公算が強い
+    expected: 公算が大きい
+
+  - patterns: 見かけ倒れ
+    expected: 見かけ倒し
+
+  - patterns: 愛想を振りまく
+    expected: 愛嬌を振りまく
+
+  - patterns: 二の句が出ない
+    expected: 二の句が継げない
+
+  - patterns: 頭をかしげる
+    expected: 首をかしげる
+
+  - patterns: 池の中の蛙
+    expected: 井の中の蛙
+
+  - patterns: 風下に置けない
+    expected: 風上に置けない
+
+  - patterns: 上にも置かぬ
+    expected: 下にも置かぬ
+
+  - patterns: 数えられるほどしかない
+    expected: 数えるほどしかない
+
+  - patterns: シュミレーション
+    expected: シミュレーション
+
+  - patterns: したづつみを打つ
+    expected: したつづみを打つ
+
+  - patterns: 年棒
+    expected: 年俸
+
+  - patterns: した矢先
+    expected: する矢先
+
+  - patterns: 炎天下のもと
+    expected: 炎天下
+
+  - patterns: 馬から落馬
+    expected: 落馬
+
+  - patterns: 親不幸
+    expected: 親不孝
+
+  - patterns: 後で後悔する
+    expected: 後悔する
+
+  - patterns: 社交辞礼
+    expected: 社交辞令
+
+  - patterns: 絶対絶命
+    expected: 絶体絶命
+
+  - patterns: 短刀直入
+    expected: 単刀直入
+
+  - patterns: 危機一発
+    expected: 危機一髪
+
