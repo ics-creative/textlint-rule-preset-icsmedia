@@ -31,6 +31,12 @@ rules:
   - pattern: ソフトウェアー
     expected: ソフトウェア
 
+  - expected: WebGL
+    patterns:
+      - webgl
+      - Webgl
+      - Web GL
+
   - expected: webpack
     patterns:
       - Webpack
@@ -72,11 +78,64 @@ rules:
       - Github
       - github
       - Git Hub
+      - git hub
+
+  - expected: Facebook
+    patterns:
+      - FaceBook
+
+  - expected: VMware
+    patterns:
+      - Vmware
+      - VM ware
+
+  - expected: Mbps
+    patterns: MBps
+
+  - expected: OpenID
+    patterns: 
+      - Open ID
+      - OPEN ID
+
+  - expected: PostgreSQL
+    patterns: PostgresSQL
+
+  - expected: Amazon Web Services
+    patterns:
+      - Amazon Web Service
+
+  - expected: Windows 10
+    patterns: Windows10
+  - expected: Windows 8.1
+    patterns: Windows8.1
+  - expected: Windows 8
+    patterns: Windows8
+  - expected: Windows 7
+    patterns: Windows7
+  - expected: Remote Desktop Services
+    patterns: Remote Desktop Service
+  - expected: .NET Framework
+    patterns: .NET フレームワーク
+  - expected: PowerShell
+    patterns: 
+      - Powershell
+      - Power Shell
+  - expected: DirectX
+    patterns: 
+      - Direct X
+      - direct x
+  - expected: Xbox
+    patterns: XBox
+
 
   # 誤字修正
   - expected: Bootstrap 4
     patterns:
       - Bootstrap4
+
+  - expected: jQuery
+    patterns:
+      - jquery
 
   # 誤字修正
   - expected: Node.js
@@ -123,10 +182,45 @@ rules:
     patterns:
       - PHPStorm
 
+  - expected: Adobe Photoshop
+    patterns:
+      - adobe photoshop
+
+  - expected: Photoshop
+    patterns:
+      - PhotoShop
+
+  - expected: Premiere Pro
+    patterns:
+      - premiere pro
+
+  - expected: After Effects
+    patterns:
+      - /After Effect(?!([s]))/
+      - /after effect(?!([s]))/
+      - /After effect(?!([s]))/
+      - after effects
+      - After effects
+
+
   - expected: Visual Studio Code
     patterns:
       - VisualStudio Code
       - VisualStudioCode
+
+  - expected: Visual Studio
+    patterns:
+      - VisualStudio
+      - Visualstudio
+
+  - expected: PowerPoint
+    patterns:
+      - Power Point
+      - Powerpoint
+
+  - expected: Hyper-V
+    patterns: HyperV
+
 
   # ------------------------------------
   # 間違いやすい固有名詞
@@ -152,6 +246,9 @@ rules:
 
   - expected: ビックカメラ
     patterns: ビッグカメラ
+
+  - expected: 東京ビッグサイト
+    patterns: 東京ビックサイト
 
   - expected: 日本コロムビア
     patterns: 日本コロンビア
@@ -182,6 +279,15 @@ rules:
 
   - expected: シヤチハタ株
     patterns: シャチハタ株
+
+  - expected: 青春18きっぷ
+    patterns: 青春18切符
+
+  - expected: 暮しの手帖
+    patterns: 
+      - 暮らしの手帳
+      - 暮しの手帳
+    
 
   # ------------------------------------
   # まだ「文字校正」で消耗してるの？ LIGブログの表記ルールについて整理してみた | 東京上野のWeb制作会社LIG
