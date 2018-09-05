@@ -22,9 +22,6 @@ rules:
   - expected: デフォルト
     pattern:  ディフォルト
 
-  - pattern: ウィンドウ
-    expected: ウインドウ
-
   - pattern: ハードウェアー
     expected: ハードウェア
 
