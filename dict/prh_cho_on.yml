@@ -670,9 +670,6 @@ rules:
   - pattern: /フッタ(?!([ーァ-ヴ]))/
     expected: フッター
 
-  - pattern: /ブラウザ(?!([ーァ-ヴ]))/
-    expected: ブラウザー
-
   - pattern: /プランジャ(?!([ーァ-ヴ]))/
     expected: プランジャー
 
