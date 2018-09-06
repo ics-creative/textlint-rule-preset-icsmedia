@@ -337,6 +337,16 @@ rules:
     expected: できる
     prh: 漢字で書かず、ひらがなで書くと読みやすくなります
 
+  - patterns:
+      - お勧め
+      - おすすめ
+    expected: オススメ
+    prh: カタカナで書くと読みやすくなります
+
+  - pattern: 特に
+    expected: とくに
+    prh: 漢字で書かず、ひらがなで書くと読みやすくなります
+
   # 補助動詞
   - pattern: して頂く
     expected: していただく
