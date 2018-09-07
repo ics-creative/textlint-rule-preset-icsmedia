@@ -23,6 +23,10 @@ rules:
   - expected: Adobe Photoshop
     patterns:
       - adobe photoshop
+  - expected: Adobe XD
+    patterns:
+      - Adobe Xd
+      - Adobe xd
   - expected: After Effects
     patterns:
       - /After Effect(?!([s]))/
@@ -36,6 +40,10 @@ rules:
   - expected: Bootstrap 4
     patterns:
       - Bootstrap4
+  - expected: ChatWork
+    patterns:
+      - Chat Work
+      - Chatwork
   - expected: DirectX
     patterns:
       - Direct X
@@ -64,6 +72,12 @@ rules:
   - expected: jQuery
     patterns:
       - jquery
+  - expected: Lightroom
+    patterns:
+      - LightRoom
+      - Light Room
+      - Light room
+      - light room
   - expected: MacBook
     patterns:
       - Macbook
