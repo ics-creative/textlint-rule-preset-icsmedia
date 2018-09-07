@@ -318,6 +318,15 @@ const list = [
   'ロケーター',
 ];
 
+// あいうえお順に
+list.sort((a, b) => {
+  const digit = 10000;
+  const aValue = a.charCodeAt(0) * (digit ** 2) + a.charCodeAt(1) * digit + a.charCodeAt(2);
+  const bValue = b.charCodeAt(0) * (digit ** 2) + b.charCodeAt(1) * digit + b.charCodeAt(2);
+
+  return aValue - bValue;
+});
+
 const arr = list.map(str => {
   const original = str.slice(0, -1);
   return `

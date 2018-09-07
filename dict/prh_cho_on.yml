@@ -2,7 +2,7 @@
 # 長音ありのリスト（動的に生成）
 # 
 # ソース : ../_tools/長音表記統一.js 
-# 最終出社日 : 2018-9-7 15:56:41
+# 最終出社日 : 2018-9-7 16:32:00
 # ========================================
 rules:
 
@@ -30,12 +30,12 @@ rules:
     expected: アダプター
     prh: 語尾が -er, -or, -ar で終わる語彙には長音を付けます
 
-  - pattern: /アップデータ(?!([ーァ-ヴ]))/
-    expected: アップデーター
-    prh: 語尾が -er, -or, -ar で終わる語彙には長音を付けます
-
   - pattern: /アップローダ(?!([ーァ-ヴ]))/
     expected: アップローダー
+    prh: 語尾が -er, -or, -ar で終わる語彙には長音を付けます
+
+  - pattern: /アップデータ(?!([ーァ-ヴ]))/
+    expected: アップデーター
     prh: 語尾が -er, -or, -ar で終わる語彙には長音を付けます
 
   - pattern: /アドバイザ(?!([ーァ-ヴ]))/
@@ -98,64 +98,68 @@ rules:
     expected: インサーター
     prh: 語尾が -er, -or, -ar で終わる語彙には長音を付けます
 
-  - pattern: /インジェクタ(?!([ーァ-ヴ]))/
-    expected: インジェクター
-    prh: 語尾が -er, -or, -ar で終わる語彙には長音を付けます
-
   - pattern: /インジケータ(?!([ーァ-ヴ]))/
     expected: インジケーター
     prh: 語尾が -er, -or, -ar で終わる語彙には長音を付けます
 
-  - pattern: /インストーラ(?!([ーァ-ヴ]))/
-    expected: インストーラー
+  - pattern: /インジェクタ(?!([ーァ-ヴ]))/
+    expected: インジェクター
     prh: 語尾が -er, -or, -ar で終わる語彙には長音を付けます
 
   - pattern: /インスペクタ(?!([ーァ-ヴ]))/
     expected: インスペクター
     prh: 語尾が -er, -or, -ar で終わる語彙には長音を付けます
 
-  - pattern: /インターセプタ(?!([ーァ-ヴ]))/
-    expected: インターセプター
+  - pattern: /インストーラ(?!([ーァ-ヴ]))/
+    expected: インストーラー
     prh: 語尾が -er, -or, -ar で終わる語彙には長音を付けます
 
   - pattern: /インタープリタ(?!([ーァ-ヴ]))/
     expected: インタープリター
     prh: 語尾が -er, -or, -ar で終わる語彙には長音を付けます
 
-  - pattern: /インデクサ(?!([ーァ-ヴ]))/
-    expected: インデクサー
+  - pattern: /インターセプタ(?!([ーァ-ヴ]))/
+    expected: インターセプター
     prh: 語尾が -er, -or, -ar で終わる語彙には長音を付けます
 
   - pattern: /インテグレータ(?!([ーァ-ヴ]))/
     expected: インテグレーター
     prh: 語尾が -er, -or, -ar で終わる語彙には長音を付けます
 
-  - pattern: /インバータ(?!([ーァ-ヴ]))/
-    expected: インバーター
+  - pattern: /インデクサ(?!([ーァ-ヴ]))/
+    expected: インデクサー
     prh: 語尾が -er, -or, -ar で終わる語彙には長音を付けます
 
   - pattern: /インバリデータ(?!([ーァ-ヴ]))/
     expected: インバリデーター
     prh: 語尾が -er, -or, -ar で終わる語彙には長音を付けます
 
+  - pattern: /インバータ(?!([ーァ-ヴ]))/
+    expected: インバーター
+    prh: 語尾が -er, -or, -ar で終わる語彙には長音を付けます
+
   - pattern: /インポータ(?!([ーァ-ヴ]))/
     expected: インポーター
-    prh: 語尾が -er, -or, -ar で終わる語彙には長音を付けます
-
-  - pattern: /ウォーカ(?!([ーァ-ヴ]))/
-    expected: ウォーカー
-    prh: 語尾が -er, -or, -ar で終わる語彙には長音を付けます
-
-  - pattern: /ウォータ(?!([ーァ-ヴ]))/
-    expected: ウォーター
     prh: 語尾が -er, -or, -ar で終わる語彙には長音を付けます
 
   - pattern: /ウォリア(?!([ーァ-ヴ]))/
     expected: ウォリアー
     prh: 語尾が -er, -or, -ar で終わる語彙には長音を付けます
 
+  - pattern: /ウォータ(?!([ーァ-ヴ]))/
+    expected: ウォーター
+    prh: 語尾が -er, -or, -ar で終わる語彙には長音を付けます
+
+  - pattern: /ウォーカ(?!([ーァ-ヴ]))/
+    expected: ウォーカー
+    prh: 語尾が -er, -or, -ar で終わる語彙には長音を付けます
+
   - pattern: /エキスパンダ(?!([ーァ-ヴ]))/
     expected: エキスパンダー
+    prh: 語尾が -er, -or, -ar で終わる語彙には長音を付けます
+
+  - pattern: /エクスプローラ(?!([ーァ-ヴ]))/
+    expected: エクスプローラー
     prh: 語尾が -er, -or, -ar で終わる語彙には長音を付けます
 
   - pattern: /エクスチェンジャ(?!([ーァ-ヴ]))/
@@ -164,10 +168,6 @@ rules:
 
   - pattern: /エクステンダ(?!([ーァ-ヴ]))/
     expected: エクステンダー
-    prh: 語尾が -er, -or, -ar で終わる語彙には長音を付けます
-
-  - pattern: /エクスプローラ(?!([ーァ-ヴ]))/
-    expected: エクスプローラー
     prh: 語尾が -er, -or, -ar で終わる語彙には長音を付けます
 
   - pattern: /エクスポータ(?!([ーァ-ヴ]))/
@@ -202,18 +202,6 @@ rules:
     expected: エンコーダー
     prh: 語尾が -er, -or, -ar で終わる語彙には長音を付けます
 
-  - pattern: /オーガナイザ(?!([ーァ-ヴ]))/
-    expected: オーガナイザー
-    prh: 語尾が -er, -or, -ar で終わる語彙には長音を付けます
-
-  - pattern: /オートダイヤラ(?!([ーァ-ヴ]))/
-    expected: オートダイヤラー
-    prh: 語尾が -er, -or, -ar で終わる語彙には長音を付けます
-
-  - pattern: /オートフィルタ(?!([ーァ-ヴ]))/
-    expected: オートフィルター
-    prh: 語尾が -er, -or, -ar で終わる語彙には長音を付けます
-
   - pattern: /オシレータ(?!([ーァ-ヴ]))/
     expected: オシレーター
     prh: 語尾が -er, -or, -ar で終わる語彙には長音を付けます
@@ -238,6 +226,18 @@ rules:
     expected: オルタネーター
     prh: 語尾が -er, -or, -ar で終わる語彙には長音を付けます
 
+  - pattern: /オーガナイザ(?!([ーァ-ヴ]))/
+    expected: オーガナイザー
+    prh: 語尾が -er, -or, -ar で終わる語彙には長音を付けます
+
+  - pattern: /オートフィルタ(?!([ーァ-ヴ]))/
+    expected: オートフィルター
+    prh: 語尾が -er, -or, -ar で終わる語彙には長音を付けます
+
+  - pattern: /オートダイヤラ(?!([ーァ-ヴ]))/
+    expected: オートダイヤラー
+    prh: 語尾が -er, -or, -ar で終わる語彙には長音を付けます
+
   - pattern: /カウンタ(?!([ーァ-ヴ]))/
     expected: カウンター
     prh: 語尾が -er, -or, -ar で終わる語彙には長音を付けます
@@ -254,16 +254,16 @@ rules:
     expected: カテゴライザー
     prh: 語尾が -er, -or, -ar で終わる語彙には長音を付けます
 
-  - pattern: /ガバナ(?!([ーァ-ヴ]))/
-    expected: ガバナー
-    prh: 語尾が -er, -or, -ar で終わる語彙には長音を付けます
-
   - pattern: /カプラ(?!([ーァ-ヴ]))/
     expected: カプラー
     prh: 語尾が -er, -or, -ar で終わる語彙には長音を付けます
 
   - pattern: /カムコーダ(?!([ーァ-ヴ]))/
     expected: カムコーダー
+    prh: 語尾が -er, -or, -ar で終わる語彙には長音を付けます
+
+  - pattern: /ガバナ(?!([ーァ-ヴ]))/
+    expected: ガバナー
     prh: 語尾が -er, -or, -ar で終わる語彙には長音を付けます
 
   - pattern: /キャラクタ(?!([ーァ-ヴ]))/
@@ -278,20 +278,16 @@ rules:
     expected: クラスター
     prh: 語尾が -er, -or, -ar で終わる語彙には長音を付けます
 
-  - pattern: /クリーナ(?!([ーァ-ヴ]))/
-    expected: クリーナー
-    prh: 語尾が -er, -or, -ar で終わる語彙には長音を付けます
-
   - pattern: /クリエータ(?!([ーァ-ヴ]))/
     expected: クリエーター
     prh: 語尾が -er, -or, -ar で終わる語彙には長音を付けます
 
-  - pattern: /クローラ(?!([ーァ-ヴ]))/
-    expected: クローラー
+  - pattern: /クリーナ(?!([ーァ-ヴ]))/
+    expected: クリーナー
     prh: 語尾が -er, -or, -ar で終わる語彙には長音を付けます
 
-  - pattern: /コーディネータ(?!([ーァ-ヴ]))/
-    expected: コーディネーター
+  - pattern: /クローラ(?!([ーァ-ヴ]))/
+    expected: クローラー
     prh: 語尾が -er, -or, -ar で終わる語彙には長音を付けます
 
   - pattern: /コレクタ(?!([ーァ-ヴ]))/
@@ -362,6 +358,10 @@ rules:
     expected: コンポジター
     prh: 語尾が -er, -or, -ar で終わる語彙には長音を付けます
 
+  - pattern: /コーディネータ(?!([ーァ-ヴ]))/
+    expected: コーディネーター
+    prh: 語尾が -er, -or, -ar で終わる語彙には長音を付けます
+
   - pattern: /サブウーファ(?!([ーァ-ヴ]))/
     expected: サブウーファー
     prh: 語尾が -er, -or, -ar で終わる語彙には長音を付けます
@@ -386,12 +386,12 @@ rules:
     expected: サブマスター
     prh: 語尾が -er, -or, -ar で終わる語彙には長音を付けます
 
-  - pattern: /サプライヤ(?!([ーァ-ヴ]))/
-    expected: サプライヤー
-    prh: 語尾が -er, -or, -ar で終わる語彙には長音を付けます
-
   - pattern: /サブレイヤ(?!([ーァ-ヴ]))/
     expected: サブレイヤー
+    prh: 語尾が -er, -or, -ar で終わる語彙には長音を付けます
+
+  - pattern: /サプライヤ(?!([ーァ-ヴ]))/
+    expected: サプライヤー
     prh: 語尾が -er, -or, -ar で終わる語彙には長音を付けます
 
   - pattern: /サプレッサ(?!([ーァ-ヴ]))/
@@ -406,16 +406,8 @@ rules:
     expected: シアター
     prh: 語尾が -er, -or, -ar で終わる語彙には長音を付けます
 
-  - pattern: /シーケンサ(?!([ーァ-ヴ]))/
-    expected: シーケンサー
-    prh: 語尾が -er, -or, -ar で終わる語彙には長音を付けます
-
   - pattern: /シェーダ(?!([ーァ-ヴ]))/
     expected: シェーダー
-    prh: 語尾が -er, -or, -ar で終わる語彙には長音を付けます
-
-  - pattern: /ジェネレータ(?!([ーァ-ヴ]))/
-    expected: ジェネレーター
     prh: 語尾が -er, -or, -ar で終わる語彙には長音を付けます
 
   - pattern: /シフタ(?!([ーァ-ヴ]))/
@@ -424,10 +416,6 @@ rules:
 
   - pattern: /シャッタ(?!([ーァ-ヴ]))/
     expected: シャッター
-    prh: 語尾が -er, -or, -ar で終わる語彙には長音を付けます
-
-  - pattern: /ジャンパ(?!([ーァ-ヴ]))/
-    expected: ジャンパー
     prh: 語尾が -er, -or, -ar で終わる語彙には長音を付けます
 
   - pattern: /シリアライザ(?!([ーァ-ヴ]))/
@@ -446,20 +434,20 @@ rules:
     expected: シンセサイザー
     prh: 語尾が -er, -or, -ar で終わる語彙には長音を付けます
 
+  - pattern: /シーケンサ(?!([ーァ-ヴ]))/
+    expected: シーケンサー
+    prh: 語尾が -er, -or, -ar で終わる語彙には長音を付けます
+
+  - pattern: /ジェネレータ(?!([ーァ-ヴ]))/
+    expected: ジェネレーター
+    prh: 語尾が -er, -or, -ar で終わる語彙には長音を付けます
+
+  - pattern: /ジャンパ(?!([ーァ-ヴ]))/
+    expected: ジャンパー
+    prh: 語尾が -er, -or, -ar で終わる語彙には長音を付けます
+
   - pattern: /スイッチャ(?!([ーァ-ヴ]))/
     expected: スイッチャー
-    prh: 語尾が -er, -or, -ar で終わる語彙には長音を付けます
-
-  - pattern: /スーパーバイザ(?!([ーァ-ヴ]))/
-    expected: スーパーバイザー
-    prh: 語尾が -er, -or, -ar で終わる語彙には長音を付けます
-
-  - pattern: /スーパーバイザ(?!([ーァ-ヴ]))/
-    expected: スーパーバイザー
-    prh: 語尾が -er, -or, -ar で終わる語彙には長音を付けます
-
-  - pattern: /スーペリア(?!([ーァ-ヴ]))/
-    expected: スーペリアー
     prh: 語尾が -er, -or, -ar で終わる語彙には長音を付けます
 
   - pattern: /スカベンジャ(?!([ーァ-ヴ]))/
@@ -478,16 +466,16 @@ rules:
     expected: スキャナー
     prh: 語尾が -er, -or, -ar で終わる語彙には長音を付けます
 
-  - pattern: /スクリーナ(?!([ーァ-ヴ]))/
-    expected: スクリーナー
-    prh: 語尾が -er, -or, -ar で終わる語彙には長音を付けます
-
   - pattern: /スクリーンセーバ(?!([ーァ-ヴ]))/
     expected: スクリーンセーバー
     prh: 語尾が -er, -or, -ar で終わる語彙には長音を付けます
 
   - pattern: /スクリプタ(?!([ーァ-ヴ]))/
     expected: スクリプター
+    prh: 語尾が -er, -or, -ar で終わる語彙には長音を付けます
+
+  - pattern: /スクリーナ(?!([ーァ-ヴ]))/
+    expected: スクリーナー
     prh: 語尾が -er, -or, -ar で終わる語彙には長音を付けます
 
   - pattern: /スクレーパ(?!([ーァ-ヴ]))/
@@ -498,12 +486,12 @@ rules:
     expected: スタッカー
     prh: 語尾が -er, -or, -ar で終わる語彙には長音を付けます
 
-  - pattern: /ステージャ(?!([ーァ-ヴ]))/
-    expected: ステージャー
-    prh: 語尾が -er, -or, -ar で終わる語彙には長音を付けます
-
   - pattern: /ステマ(?!([ーァ-ヴ]))/
     expected: ステマー
+    prh: 語尾が -er, -or, -ar で終わる語彙には長音を付けます
+
+  - pattern: /ステージャ(?!([ーァ-ヴ]))/
+    expected: ステージャー
     prh: 語尾が -er, -or, -ar で終わる語彙には長音を付けます
 
   - pattern: /ストーカ(?!([ーァ-ヴ]))/
@@ -526,24 +514,36 @@ rules:
     expected: スピーカー
     prh: 語尾が -er, -or, -ar で終わる語彙には長音を付けます
 
-  - pattern: /スプーラ(?!([ーァ-ヴ]))/
-    expected: スプーラー
-    prh: 語尾が -er, -or, -ar で終わる語彙には長音を付けます
-
   - pattern: /スプリッタ(?!([ーァ-ヴ]))/
     expected: スプリッター
+    prh: 語尾が -er, -or, -ar で終わる語彙には長音を付けます
+
+  - pattern: /スプーラ(?!([ーァ-ヴ]))/
+    expected: スプーラー
     prh: 語尾が -er, -or, -ar で終わる語彙には長音を付けます
 
   - pattern: /スペーサ(?!([ーァ-ヴ]))/
     expected: スペーサー
     prh: 語尾が -er, -or, -ar で終わる語彙には長音を付けます
 
+  - pattern: /スライダ(?!([ーァ-ヴ]))/
+    expected: スライダー
+    prh: 語尾が -er, -or, -ar で終わる語彙には長音を付けます
+
   - pattern: /スライサ(?!([ーァ-ヴ]))/
     expected: スライサー
     prh: 語尾が -er, -or, -ar で終わる語彙には長音を付けます
 
-  - pattern: /スライダ(?!([ーァ-ヴ]))/
-    expected: スライダー
+  - pattern: /スーパーバイザ(?!([ーァ-ヴ]))/
+    expected: スーパーバイザー
+    prh: 語尾が -er, -or, -ar で終わる語彙には長音を付けます
+
+  - pattern: /スーパーバイザ(?!([ーァ-ヴ]))/
+    expected: スーパーバイザー
+    prh: 語尾が -er, -or, -ar で終わる語彙には長音を付けます
+
+  - pattern: /スーペリア(?!([ーァ-ヴ]))/
+    expected: スーペリアー
     prh: 語尾が -er, -or, -ar で終わる語彙には長音を付けます
 
   - pattern: /セクタ(?!([ーァ-ヴ]))/
@@ -602,6 +602,14 @@ rules:
     expected: チューナー
     prh: 語尾が -er, -or, -ar で終わる語彙には長音を付けます
 
+  - pattern: /テクスチャライザ(?!([ーァ-ヴ]))/
+    expected: テクスチャライザー
+    prh: 語尾が -er, -or, -ar で終わる語彙には長音を付けます
+
+  - pattern: /テスタ(?!([ーァ-ヴ]))/
+    expected: テスター
+    prh: 語尾が -er, -or, -ar で終わる語彙には長音を付けます
+
   - pattern: /ディザ(?!([ーァ-ヴ]))/
     expected: ディザー
     prh: 語尾が -er, -or, -ar で終わる語彙には長音を付けます
@@ -630,10 +638,6 @@ rules:
     expected: ディレクター
     prh: 語尾が -er, -or, -ar で終わる語彙には長音を付けます
 
-  - pattern: /テクスチャライザ(?!([ーァ-ヴ]))/
-    expected: テクスチャライザー
-    prh: 語尾が -er, -or, -ar で終わる語彙には長音を付けます
-
   - pattern: /デコーダ(?!([ーァ-ヴ]))/
     expected: デコーダー
     prh: 語尾が -er, -or, -ar で終わる語彙には長音を付けます
@@ -642,16 +646,12 @@ rules:
     expected: デザイナー
     prh: 語尾が -er, -or, -ar で終わる語彙には長音を付けます
 
-  - pattern: /デジタイザ(?!([ーァ-ヴ]))/
-    expected: デジタイザー
-    prh: 語尾が -er, -or, -ar で終わる語彙には長音を付けます
-
   - pattern: /デシリアライザ(?!([ーァ-ヴ]))/
     expected: デシリアライザー
     prh: 語尾が -er, -or, -ar で終わる語彙には長音を付けます
 
-  - pattern: /テスタ(?!([ーァ-ヴ]))/
-    expected: テスター
+  - pattern: /デジタイザ(?!([ーァ-ヴ]))/
+    expected: デジタイザー
     prh: 語尾が -er, -or, -ar で終わる語彙には長音を付けます
 
   - pattern: /デストラクタ(?!([ーァ-ヴ]))/
@@ -680,14 +680,6 @@ rules:
 
   - pattern: /デリミタ(?!([ーァ-ヴ]))/
     expected: デリミター
-    prh: 語尾が -er, -or, -ar で終わる語彙には長音を付けます
-
-  - pattern: /ドライバ(?!([ーァ-ヴ]))/
-    expected: ドライバー
-    prh: 語尾が -er, -or, -ar で終わる語彙には長音を付けます
-
-  - pattern: /ドライヤ(?!([ーァ-ヴ]))/
-    expected: ドライヤー
     prh: 語尾が -er, -or, -ar で終わる語彙には長音を付けます
 
   - pattern: /トラクタ(?!([ーァ-ヴ]))/
@@ -730,12 +722,20 @@ rules:
     expected: トリマー
     prh: 語尾が -er, -or, -ar で終わる語彙には長音を付けます
 
+  - pattern: /トレーラ(?!([ーァ-ヴ]))/
+    expected: トレーラー
+    prh: 語尾が -er, -or, -ar で終わる語彙には長音を付けます
+
   - pattern: /トレーサ(?!([ーァ-ヴ]))/
     expected: トレーサー
     prh: 語尾が -er, -or, -ar で終わる語彙には長音を付けます
 
-  - pattern: /トレーラ(?!([ーァ-ヴ]))/
-    expected: トレーラー
+  - pattern: /ドライヤ(?!([ーァ-ヴ]))/
+    expected: ドライヤー
+    prh: 語尾が -er, -or, -ar で終わる語彙には長音を付けます
+
+  - pattern: /ドライバ(?!([ーァ-ヴ]))/
+    expected: ドライバー
     prh: 語尾が -er, -or, -ar で終わる語彙には長音を付けます
 
   - pattern: /ドロア(?!([ーァ-ヴ]))/
@@ -754,44 +754,24 @@ rules:
     expected: ノーマライザー
     prh: 語尾が -er, -or, -ar で終わる語彙には長音を付けます
 
-  - pattern: /パートナ(?!([ーァ-ヴ]))/
-    expected: パートナー
+  - pattern: /ハンドラ(?!([ーァ-ヴ]))/
+    expected: ハンドラー
     prh: 語尾が -er, -or, -ar で終わる語彙には長音を付けます
 
-  - pattern: /バーバライザ(?!([ーァ-ヴ]))/
-    expected: バーバライザー
+  - pattern: /ハンマ(?!([ーァ-ヴ]))/
+    expected: ハンマー
     prh: 語尾が -er, -or, -ar で終わる語彙には長音を付けます
 
   - pattern: /バインダ(?!([ーァ-ヴ]))/
     expected: バインダー
     prh: 語尾が -er, -or, -ar で終わる語彙には長音を付けます
 
-  - pattern: /パケッタイザ(?!([ーァ-ヴ]))/
-    expected: パケッタイザー
-    prh: 語尾が -er, -or, -ar で終わる語彙には長音を付けます
-
-  - pattern: /パスファインダ(?!([ーァ-ヴ]))/
-    expected: パスファインダー
-    prh: 語尾が -er, -or, -ar で終わる語彙には長音を付けます
-
   - pattern: /バスマスタ(?!([ーァ-ヴ]))/
     expected: バスマスター
     prh: 語尾が -er, -or, -ar で終わる語彙には長音を付けます
 
-  - pattern: /パッケージャ(?!([ーァ-ヴ]))/
-    expected: パッケージャー
-    prh: 語尾が -er, -or, -ar で終わる語彙には長音を付けます
-
   - pattern: /バッファ(?!([ーァ-ヴ]))/
     expected: バッファー
-    prh: 語尾が -er, -or, -ar で終わる語彙には長音を付けます
-
-  - pattern: /パブリッシャ(?!([ーァ-ヴ]))/
-    expected: パブリッシャー
-    prh: 語尾が -er, -or, -ar で終わる語彙には長音を付けます
-
-  - pattern: /パラメータ(?!([ーァ-ヴ]))/
-    expected: パラメーター
     prh: 語尾が -er, -or, -ar で終わる語彙には長音を付けます
 
   - pattern: /バランサ(?!([ーァ-ヴ]))/
@@ -806,32 +786,44 @@ rules:
     expected: バリデーター
     prh: 語尾が -er, -or, -ar で終わる語彙には長音を付けます
 
+  - pattern: /バーバライザ(?!([ーァ-ヴ]))/
+    expected: バーバライザー
+    prh: 語尾が -er, -or, -ar で終わる語彙には長音を付けます
+
+  - pattern: /パケッタイザ(?!([ーァ-ヴ]))/
+    expected: パケッタイザー
+    prh: 語尾が -er, -or, -ar で終わる語彙には長音を付けます
+
+  - pattern: /パスファインダ(?!([ーァ-ヴ]))/
+    expected: パスファインダー
+    prh: 語尾が -er, -or, -ar で終わる語彙には長音を付けます
+
+  - pattern: /パッケージャ(?!([ーァ-ヴ]))/
+    expected: パッケージャー
+    prh: 語尾が -er, -or, -ar で終わる語彙には長音を付けます
+
+  - pattern: /パブリッシャ(?!([ーァ-ヴ]))/
+    expected: パブリッシャー
+    prh: 語尾が -er, -or, -ar で終わる語彙には長音を付けます
+
+  - pattern: /パラメータ(?!([ーァ-ヴ]))/
+    expected: パラメーター
+    prh: 語尾が -er, -or, -ar で終わる語彙には長音を付けます
+
   - pattern: /パルベライザ(?!([ーァ-ヴ]))/
     expected: パルベライザー
     prh: 語尾が -er, -or, -ar で終わる語彙には長音を付けます
 
-  - pattern: /ハンドラ(?!([ーァ-ヴ]))/
-    expected: ハンドラー
-    prh: 語尾が -er, -or, -ar で終わる語彙には長音を付けます
-
-  - pattern: /ハンマ(?!([ーァ-ヴ]))/
-    expected: ハンマー
+  - pattern: /パートナ(?!([ーァ-ヴ]))/
+    expected: パートナー
     prh: 語尾が -er, -or, -ar で終わる語彙には長音を付けます
 
   - pattern: /ビジュアライザ(?!([ーァ-ヴ]))/
     expected: ビジュアライザー
     prh: 語尾が -er, -or, -ar で終わる語彙には長音を付けます
 
-  - pattern: /ピッカ(?!([ーァ-ヴ]))/
-    expected: ピッカー
-    prh: 語尾が -er, -or, -ar で終わる語彙には長音を付けます
-
   - pattern: /ビヘイビア(?!([ーァ-ヴ]))/
     expected: ビヘイビアー
-    prh: 語尾が -er, -or, -ar で終わる語彙には長音を付けます
-
-  - pattern: /ピュアライザ(?!([ーァ-ヴ]))/
-    expected: ピュアライザー
     prh: 語尾が -er, -or, -ar で終わる語彙には長音を付けます
 
   - pattern: /ビューア(?!([ーァ-ヴ]))/
@@ -840,6 +832,14 @@ rules:
 
   - pattern: /ビルダ(?!([ーァ-ヴ]))/
     expected: ビルダー
+    prh: 語尾が -er, -or, -ar で終わる語彙には長音を付けます
+
+  - pattern: /ピッカ(?!([ーァ-ヴ]))/
+    expected: ピッカー
+    prh: 語尾が -er, -or, -ar で終わる語彙には長音を付けます
+
+  - pattern: /ピュアライザ(?!([ーァ-ヴ]))/
+    expected: ピュアライザー
     prh: 語尾が -er, -or, -ar で終わる語彙には長音を付けます
 
   - pattern: /ファイナライザ(?!([ーァ-ヴ]))/
@@ -858,10 +858,6 @@ rules:
     expected: ファクター
     prh: 語尾が -er, -or, -ar で終わる語彙には長音を付けます
 
-  - pattern: /フィーダ(?!([ーァ-ヴ]))/
-    expected: フィーダー
-    prh: 語尾が -er, -or, -ar で終わる語彙には長音を付けます
-
   - pattern: /フィニッシャ(?!([ーァ-ヴ]))/
     expected: フィニッシャー
     prh: 語尾が -er, -or, -ar で終わる語彙には長音を付けます
@@ -874,12 +870,8 @@ rules:
     expected: フィンガー
     prh: 語尾が -er, -or, -ar で終わる語彙には長音を付けます
 
-  - pattern: /ブースタ(?!([ーァ-ヴ]))/
-    expected: ブースター
-    prh: 語尾が -er, -or, -ar で終わる語彙には長音を付けます
-
-  - pattern: /ブートローダ(?!([ーァ-ヴ]))/
-    expected: ブートローダー
+  - pattern: /フィーダ(?!([ーァ-ヴ]))/
+    expected: フィーダー
     prh: 語尾が -er, -or, -ar で終わる語彙には長音を付けます
 
   - pattern: /フェイダ(?!([ーァ-ヴ]))/
@@ -896,6 +888,38 @@ rules:
 
   - pattern: /フッタ(?!([ーァ-ヴ]))/
     expected: フッター
+    prh: 語尾が -er, -or, -ar で終わる語彙には長音を付けます
+
+  - pattern: /フレーバ(?!([ーァ-ヴ]))/
+    expected: フレーバー
+    prh: 語尾が -er, -or, -ar で終わる語彙には長音を付けます
+
+  - pattern: /ブレンダ(?!([ーァ-ヴ]))/
+    expected: ブレンダー
+    prh: 語尾が -er, -or, -ar で終わる語彙には長音を付けます
+
+  - pattern: /ブレーカ(?!([ーァ-ヴ]))/
+    expected: ブレーカー
+    prh: 語尾が -er, -or, -ar で終わる語彙には長音を付けます
+
+  - pattern: /ブロッカ(?!([ーァ-ヴ]))/
+    expected: ブロッカー
+    prh: 語尾が -er, -or, -ar で終わる語彙には長音を付けます
+
+  - pattern: /ブローカ(?!([ーァ-ヴ]))/
+    expected: ブローカー
+    prh: 語尾が -er, -or, -ar で終わる語彙には長音を付けます
+
+  - pattern: /ブロードキャスタ(?!([ーァ-ヴ]))/
+    expected: ブロードキャスター
+    prh: 語尾が -er, -or, -ar で終わる語彙には長音を付けます
+
+  - pattern: /ブースタ(?!([ーァ-ヴ]))/
+    expected: ブースター
+    prh: 語尾が -er, -or, -ar で終わる語彙には長音を付けます
+
+  - pattern: /ブートローダ(?!([ーァ-ヴ]))/
+    expected: ブートローダー
     prh: 語尾が -er, -or, -ar で終わる語彙には長音を付けます
 
   - pattern: /プランジャ(?!([ーァ-ヴ]))/
@@ -918,18 +942,6 @@ rules:
     expected: プルーナー
     prh: 語尾が -er, -or, -ar で終わる語彙には長音を付けます
 
-  - pattern: /ブレーカ(?!([ーァ-ヴ]))/
-    expected: ブレーカー
-    prh: 語尾が -er, -or, -ar で終わる語彙には長音を付けます
-
-  - pattern: /プレースホルダ(?!([ーァ-ヴ]))/
-    expected: プレースホルダー
-    prh: 語尾が -er, -or, -ar で終わる語彙には長音を付けます
-
-  - pattern: /フレーバ(?!([ーァ-ヴ]))/
-    expected: フレーバー
-    prh: 語尾が -er, -or, -ar で終わる語彙には長音を付けます
-
   - pattern: /プレゼンタ(?!([ーァ-ヴ]))/
     expected: プレゼンター
     prh: 語尾が -er, -or, -ar で終わる語彙には長音を付けます
@@ -942,24 +954,12 @@ rules:
     expected: プレフィルター
     prh: 語尾が -er, -or, -ar で終わる語彙には長音を付けます
 
-  - pattern: /ブレンダ(?!([ーァ-ヴ]))/
-    expected: ブレンダー
-    prh: 語尾が -er, -or, -ar で終わる語彙には長音を付けます
-
-  - pattern: /ブローカ(?!([ーァ-ヴ]))/
-    expected: ブローカー
-    prh: 語尾が -er, -or, -ar で終わる語彙には長音を付けます
-
-  - pattern: /ブロードキャスタ(?!([ーァ-ヴ]))/
-    expected: ブロードキャスター
+  - pattern: /プレースホルダ(?!([ーァ-ヴ]))/
+    expected: プレースホルダー
     prh: 語尾が -er, -or, -ar で終わる語彙には長音を付けます
 
   - pattern: /プロジェクタ(?!([ーァ-ヴ]))/
     expected: プロジェクター
-    prh: 語尾が -er, -or, -ar で終わる語彙には長音を付けます
-
-  - pattern: /ブロッカ(?!([ーァ-ヴ]))/
-    expected: ブロッカー
     prh: 語尾が -er, -or, -ar で終わる語彙には長音を付けます
 
   - pattern: /プロッタ(?!([ーァ-ヴ]))/
@@ -982,18 +982,6 @@ rules:
     expected: プロファイラー
     prh: 語尾が -er, -or, -ar で終わる語彙には長音を付けます
 
-  - pattern: /ベアラ(?!([ーァ-ヴ]))/
-    expected: ベアラー
-    prh: 語尾が -er, -or, -ar で終わる語彙には長音を付けます
-
-  - pattern: /ページャ(?!([ーァ-ヴ]))/
-    expected: ページャー
-    prh: 語尾が -er, -or, -ar で終わる語彙には長音を付けます
-
-  - pattern: /ベクタ(?!([ーァ-ヴ]))/
-    expected: ベクター
-    prh: 語尾が -er, -or, -ar で終わる語彙には長音を付けます
-
   - pattern: /ヘッダ(?!([ーァ-ヴ]))/
     expected: ヘッダー
     prh: 語尾が -er, -or, -ar で終わる語彙には長音を付けます
@@ -1006,8 +994,24 @@ rules:
     expected: ヘルパー
     prh: 語尾が -er, -or, -ar で終わる語彙には長音を付けます
 
+  - pattern: /ベアラ(?!([ーァ-ヴ]))/
+    expected: ベアラー
+    prh: 語尾が -er, -or, -ar で終わる語彙には長音を付けます
+
+  - pattern: /ベクタ(?!([ーァ-ヴ]))/
+    expected: ベクター
+    prh: 語尾が -er, -or, -ar で終わる語彙には長音を付けます
+
   - pattern: /ベンダ(?!([ーァ-ヴ]))/
     expected: ベンダー
+    prh: 語尾が -er, -or, -ar で終わる語彙には長音を付けます
+
+  - pattern: /ページャ(?!([ーァ-ヴ]))/
+    expected: ページャー
+    prh: 語尾が -er, -or, -ar で終わる語彙には長音を付けます
+
+  - pattern: /ホルダ(?!([ーァ-ヴ]))/
+    expected: ホルダー
     prh: 語尾が -er, -or, -ar で終わる語彙には長音を付けます
 
   - pattern: /ボイジャ(?!([ーァ-ヴ]))/
@@ -1024,14 +1028,6 @@ rules:
 
   - pattern: /ポリマ(?!([ーァ-ヴ]))/
     expected: ポリマー
-    prh: 語尾が -er, -or, -ar で終わる語彙には長音を付けます
-
-  - pattern: /ホルダ(?!([ーァ-ヴ]))/
-    expected: ホルダー
-    prh: 語尾が -er, -or, -ar で終わる語彙には長音を付けます
-
-  - pattern: /マーシャラ(?!([ーァ-ヴ]))/
-    expected: マーシャラー
     prh: 語尾が -er, -or, -ar で終わる語彙には長音を付けます
 
   - pattern: /マイナ(?!([ーァ-ヴ]))/
@@ -1080,6 +1076,10 @@ rules:
 
   - pattern: /マルチレイヤ(?!([ーァ-ヴ]))/
     expected: マルチレイヤー
+    prh: 語尾が -er, -or, -ar で終わる語彙には長音を付けます
+
+  - pattern: /マーシャラ(?!([ーァ-ヴ]))/
+    expected: マーシャラー
     prh: 語尾が -er, -or, -ar で終わる語彙には長音を付けます
 
   - pattern: /ミキサ(?!([ーァ-ヴ]))/
@@ -1202,12 +1202,12 @@ rules:
     expected: レイヤー
     prh: 語尾が -er, -or, -ar で終わる語彙には長音を付けます
 
-  - pattern: /レコーダ(?!([ーァ-ヴ]))/
-    expected: レコーダー
-    prh: 語尾が -er, -or, -ar で終わる語彙には長音を付けます
-
   - pattern: /レコグナイザ(?!([ーァ-ヴ]))/
     expected: レコグナイザー
+    prh: 語尾が -er, -or, -ar で終わる語彙には長音を付けます
+
+  - pattern: /レコーダ(?!([ーァ-ヴ]))/
+    expected: レコーダー
     prh: 語尾が -er, -or, -ar で終わる語彙には長音を付けます
 
   - pattern: /レシーバ(?!([ーァ-ヴ]))/
@@ -1246,10 +1246,10 @@ rules:
     expected: レンダラー
     prh: 語尾が -er, -or, -ar で終わる語彙には長音を付けます
 
-  - pattern: /ローカライザ(?!([ーァ-ヴ]))/
-    expected: ローカライザー
-    prh: 語尾が -er, -or, -ar で終わる語彙には長音を付けます
-
   - pattern: /ロケータ(?!([ーァ-ヴ]))/
     expected: ロケーター
+    prh: 語尾が -er, -or, -ar で終わる語彙には長音を付けます
+
+  - pattern: /ローカライザ(?!([ーァ-ヴ]))/
+    expected: ローカライザー
     prh: 語尾が -er, -or, -ar で終わる語彙には長音を付けます
