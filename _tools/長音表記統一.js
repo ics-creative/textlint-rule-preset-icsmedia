@@ -322,12 +322,20 @@ const arr = list.map(str => {
   const original = str.slice(0, -1);
   return `
   - pattern: /${original}(?!([ーァ-ヴ]))/
-    expected: ${str}`;
+    expected: ${str}
+    prh: 語尾が -er, -or, -ar で終わる語彙には長音を付けます`;
 });
 
-arr.unshift('rules:');
-arr.unshift('# 長音ありのリスト（動的に生成）');
+arr.unshift(
+  '# ========================================\n' +
+  '# 長音ありのリスト（動的に生成）\n' +
+  '# \n' +
+  '# ソース : ../_tools/長音表記統一.js \n' +
+  '# 最終出社日 : ' +
+  new Date().toLocaleString() +
+  '\n' +
+  '# ========================================\nrules:',
+);
 
 const fs = require('fs');
-fs.writeFile('../dict/prh_cho_on.yml', arr.join('\n'));
-
+fs.writeFile('./dict/prh_cho_on.yml', arr.join('\n'));

@@ -8,5 +8,8 @@
   "private": false,
   "dependencies": {
     "textlint-rule-prh": "^5.2.0"
+  },
+  "scripts": {
+    "generate": "node _tools/長音表記統一.js"
   }
 }
