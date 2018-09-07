@@ -12,14 +12,17 @@ rules:
     patterns:
       - ActionScript3
       - ActionScript3.0
-  - expected: Adobe Photoshop
+  - expected: Adobe AIR
     patterns:
-      - adobe photoshop
+      - Adobe Air
   - expected: Adobe MAX
     patterns:
       - Adobe Max
       - AdobeMax
       - adobemax
+  - expected: Adobe Photoshop
+    patterns:
+      - adobe photoshop
   - expected: After Effects
     patterns:
       - /After Effect(?!([s]))/
@@ -58,6 +61,19 @@ rules:
       - Javascript
       - JAVASCRIPT
       - Java Script
+  - expected: jQuery
+    patterns:
+      - jquery
+  - expected: MacBook
+    patterns:
+      - Macbook
+      - Mac Book
+      - Mac book
+  - expected: MacBook Pro
+    patterns:
+      - MacBook pro
+      - MacBookpro
+      - MacBookPro
   - expected: Mbps
     patterns: MBps
   - expected: Node.js
@@ -94,34 +110,42 @@ rules:
     patterns:
       - Typescript
       - Type Script
-  - expected: VMware
+  - expected: USB Type-C
     patterns:
-      - Vmware
-      - VM ware
-  - expected: Visual Studio Code
-    patterns:
-      - VisualStudio Code
-      - VisualStudioCode
+      - USB Type C
+      - usb type c
   - expected: Visual Studio
     patterns:
       - VisualStudio
       - Visualstudio
-  - expected: WebStorm
+  - expected: Visual Studio Code
     patterns:
-      - WEBStorm
+      - VisualStudio Code
+      - VisualStudioCode
+  - expected: VMware
+    patterns:
+      - Vmware
+      - VM ware
   - expected: WebGL
     patterns:
       - webgl
       - Webgl
       - Web GL
-  - expected: Windows 8.1
-    patterns: Windows8.1
-  - expected: Windows 8
-    patterns: Windows8
-  - expected: Windows 7
-    patterns: Windows7
+  - expected: webpack
+    patterns:
+      - Webpack
+      - WebPack
+  - expected: WebStorm
+    patterns:
+      - WEBStorm
   - expected: Windows 10
     patterns: Windows10
+  - expected: Windows 7
+    patterns: Windows7
+  - expected: Windows 8
+    patterns: Windows8
+  - expected: Windows 8.1
+    patterns: Windows8.1
   - expected: WordPress
     patterns:
       - Wordpress
@@ -129,13 +153,11 @@ rules:
       - word press
   - expected: Xbox
     patterns: XBox
-  - expected: jQuery
+  - expected: YouTube
     patterns:
-      - jquery
-  - expected: webpack
-    patterns:
-      - Webpack
-      - WebPack
+      - Youtube
+      - You Tube
+      - you tube
   - pattern: ソフトウェアー
     expected: ソフトウェア
   - expected: デフォルト

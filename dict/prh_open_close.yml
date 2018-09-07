@@ -5,6 +5,12 @@ rules:
   - pattern: 予め
     expected: あらかじめ
     prh: 漢字で書かず、ひらがなで書くと読みやすくなります
+  - pattern: 有る
+    expected: ある
+    prh: 漢字で書かず、ひらがなで書くと読みやすくなります
+  - pattern: 在る
+    expected: ある
+    prh: 漢字で書かず、ひらがなで書くと読みやすくなります
   - pattern: 何時か
     expected: いつか
     prh: 漢字で書かず、ひらがなで書くと読みやすくなります
@@ -14,6 +20,11 @@ rules:
   - pattern: 所謂
     expected: いわゆる
     prh: 漢字で書かず、ひらがなで書くと読みやすくなります
+  - patterns:
+      - お勧め
+      - おすすめ
+    expected: オススメ
+    prh: カタカナで書くと読みやすくなります
   - pattern: 面白い
     expected: おもしろい
     prh: ひらがなで書くと読みやすくなります
@@ -50,6 +61,9 @@ rules:
   - pattern: 何処か
     expected: どこか
     prh: 漢字で書かず、ひらがなで書くと読みやすくなります
+  - pattern: 無い
+    expected: ない
+    prh: 漢字で書かず、ひらがなで書くと読みやすくなります
   - pattern: 何故か
     expected: なぜか
     prh: 漢字で書かず、ひらがなで書くと読みやすくなります
@@ -62,35 +76,21 @@ rules:
   - pattern: 真面目に
     expected: まじめに
     prh: ひらがなで書くと読みやすくなります
+  - pattern: 無駄
+    expected: ムダ
+    prh: カタカナで書くと読みやすくなります
   - pattern: 易い
     expected: やすい
     prh: 漢字で書かず、ひらがなで書くと読みやすくなります
   - pattern: 分かる
     expected: わかる
     prh: 漢字で書かず、ひらがなで書くと読みやすくなります
-  - patterns:
-      - お勧め
-      - おすすめ
-    expected: オススメ
-    prh: カタカナで書くと読みやすくなります
   - pattern: 持って来る
     expected: 持ってくる
     prh: 漢字で書かず、ひらがなで書くと読みやすくなります
   - pattern: 育って行く
     expected: 育っていく
     prh: 漢字で書かず、ひらがなで書くと読みやすくなります
-  - pattern: 在る
-    expected: ある
-    prh: 漢字で書かず、ひらがなで書くと読みやすくなります
-  - pattern: 有る
-    expected: ある
-    prh: 漢字で書かず、ひらがなで書くと読みやすくなります
   - pattern: 電話を掛ける
     expected: 電話をかける
     prh: 漢字で書かず、ひらがなで書くと読みやすくなります
-  - pattern: 無い
-    expected: ない
-    prh: 漢字で書かず、ひらがなで書くと読みやすくなります
-  - pattern: 無駄
-    expected: ムダ
-    prh: カタカナで書くと読みやすくなります

@@ -14,6 +14,8 @@ rules:
     patterns: しかめつらしい
   - patterns: したづつみを打つ
     expected: したつづみを打つ
+  - patterns: シュミレーション
+    expected: シミュレーション
   - patterns: した矢先
     expected: する矢先
   - expected: そうは問屋が卸さない
@@ -24,8 +26,6 @@ rules:
     patterns: とんでもございません
   - expected: のべつまくなし
     patterns: のべつくまなし
-  - patterns: シュミレーション
-    expected: シミュレーション
   - expected: 上には上がある
     patterns: 上には上がいる
   - expected: 上を下への大騒ぎ
@@ -34,10 +34,10 @@ rules:
     expected: 下にも置かぬ
   - expected: 二つ返事
     patterns: 一つ返事
-  - patterns: 二の句が出ない
-    expected: 二の句が継げない
   - expected: 二の句が継げない
     patterns: 二の句が出ない
+  - patterns: 二の句が出ない
+    expected: 二の句が継げない
   - expected: 二の舞を演じる
     patterns: 二の舞を踏む
   - patterns: 二の舞を踏む
@@ -50,10 +50,12 @@ rules:
     patterns: 体調を壊す
   - expected: 侃侃諤諤
     patterns: 喧々諤々
-  - patterns: 公算が強い
-    expected: 公算が大きい
+  - expected: 元旦
+    patterns: 元旦の朝
   - expected: 公算が大きい
     patterns: 公算が強い
+  - patterns: 公算が強い
+    expected: 公算が大きい
   - expected: 出る杭は打たれる
     patterns: 出る釘は打たれる
   - expected: 募金を呼び掛ける
@@ -100,12 +102,18 @@ rules:
     patterns: 寸暇を惜しまず
   - expected: 対症療法
     patterns: 対処療法
+  - patterns: 年棒
+    expected: 年俸
   - expected: 弛まぬ努力
     patterns: 絶え間ぬ努力
   - patterns: 後で後悔する
     expected: 後悔する
   - expected: 後足で砂をかける　
     patterns: 後ろ足で砂をかける
+  - expected: 従来
+    patterns:
+      - 従来から
+      - 従来より
   - expected: 心血を注ぐ
     patterns: 心血を傾ける
   - expected: 必要がある
@@ -120,24 +128,12 @@ rules:
     patterns: 怪我を負う
   - patterns: 愛想を振りまく
     expected: 愛嬌を振りまく
-  - patterns: 年棒
-    expected: 年俸
-  - expected: 挙式
-    patterns: 挙式を挙げる
-  - patterns: 馬から落馬
-    expected: 落馬
-  - expected: 元旦
-    patterns: 元旦の朝
   - expected: 愛想が良い
     patterns: 愛想を振りまく
-  - expected: 肴
-    patterns: 酒の肴
-  - expected: 従来
-    patterns:
-      - 従来から
-      - 従来より
   - expected: 押しも押されもせぬ
     patterns: 押しも押されぬ
+  - expected: 挙式
+    patterns: 挙式を挙げる
   - patterns: 数えられるほどしかない
     expected: 数えるほどしかない
   - expected: 新規蒔き直し
@@ -198,6 +194,8 @@ rules:
     expected: 絶体絶命
   - expected: 罪を犯す
     patterns: 犯罪を犯す
+  - expected: 肴
+    patterns: 酒の肴
   - expected: 胸三寸
     patterns: 胸先三寸
   - expected: 脚光を浴びる
@@ -210,6 +208,8 @@ rules:
     patterns: 舌の先の乾かぬうちに
   - expected: 舌先三寸
     patterns: 口先三寸
+  - patterns: 馬から落馬
+    expected: 落馬
   - patterns: 見かけ倒れ
     expected: 見かけ倒し
   - expected: 見掛け倒し
