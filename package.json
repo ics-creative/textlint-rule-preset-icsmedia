@@ -10,7 +10,8 @@
     "textlint-rule-prh": "^5.2.0"
   },
   "scripts": {
-    "generate": "node _tools/長音表記統一.js"
+    "generate": "node _tools/長音表記統一.js",
+    "format": "node _tools/YML整形ツール.js"
   },
   "devDependencies": {
     "yaml": "^1.0.0-rc.8"
