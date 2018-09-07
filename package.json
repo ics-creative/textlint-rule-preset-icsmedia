@@ -11,5 +11,8 @@
   },
   "scripts": {
     "generate": "node _tools/長音表記統一.js"
+  },
+  "devDependencies": {
+    "yaml": "^1.0.0-rc.8"
   }
 }
