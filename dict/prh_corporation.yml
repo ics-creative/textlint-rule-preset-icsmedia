@@ -1,68 +1,47 @@
-# ========================================
-# 社名やブランド名などの固有名詞
-# (手動更新で管理してます)
-# ========================================
-
+meta:
+  - title: 社名やブランド名などの固有名詞ルール
+  - memo: 手動更新で管理してます
 rules:
-
-- expected: キユーピー
-  patterns: キューピー
-
-- expected: キヤノン
-  patterns: キャノン
-
-- expected: 富士フイルム
-  patterns:
-  - 富士フィルム
-  - フジフイルム
-  - フジフィルム
-
-- expected: エドウイン
-  patterns: エドウィン
-
-- expected: 味の素ゼネラルフーヅ
-  patterns: 味の素ゼネラルフーズ
-
-- expected: ビックカメラ
-  patterns: ビッグカメラ
-
-- expected: 東京ビッグサイト
-  patterns: 東京ビックサイト
-
-- expected: 日本コロムビア
-  patterns: 日本コロンビア
-
-- expected: 三菱レイヨン
-  patterns: 三菱レーヨン
-
-- expected: アメリカン・エキスプレス
-  patterns: アメリカン・エクスプレス
-
-- expected: 大平洋金属
-  patterns: 太平洋金属
-
-- expected: セブン–イレブン
-  patterns: セブンイレブン
-
-- expected: ドン・キホーテ
-  patterns: ドンキホーテ
-
-- expected: ニッカウヰスキー
-  patterns: ニッカウイスキー
-
-- expected: ブリヂストン
-  patterns: ブリジストン
-
-- expected: 日本コロムビア
-  patterns: 日本コロンビア
-
-- expected: シヤチハタ株
-  patterns: シャチハタ株
-
-- expected: 青春18きっぷ
-  patterns: 青春18切符
-
-- expected: 暮しの手帖
-  patterns:
-  - 暮らしの手帳
-  - 暮しの手帳
+  - expected: アメリカン・エキスプレス
+    patterns: アメリカン・エクスプレス
+  - expected: エドウイン
+    patterns: エドウィン
+  - expected: キヤノン
+    patterns: キャノン
+  - expected: キユーピー
+    patterns: キューピー
+  - expected: シヤチハタ株
+    patterns: シャチハタ株
+  - expected: セブン–イレブン
+    patterns: セブンイレブン
+  - expected: ドン・キホーテ
+    patterns: ドンキホーテ
+  - expected: ニッカウヰスキー
+    patterns: ニッカウイスキー
+  - expected: ビックカメラ
+    patterns: ビッグカメラ
+  - expected: ブリヂストン
+    patterns: ブリジストン
+  - expected: 三菱レイヨン
+    patterns: 三菱レーヨン
+  - expected: 味の素ゼネラルフーヅ
+    patterns: 味の素ゼネラルフーズ
+  - expected: 大平洋金属
+    patterns: 太平洋金属
+  - expected: 富士フイルム
+    patterns:
+      - 富士フィルム
+      - フジフイルム
+      - フジフィルム
+  - expected: 日本コロムビア
+    patterns: 日本コロンビア
+  - expected: 日本コロムビア
+    patterns: 日本コロンビア
+  - expected: 暮しの手帖
+    patterns:
+      - 暮らしの手帳
+      - 暮しの手帳
+  - expected: 東京ビッグサイト
+    patterns: 東京ビックサイト
+  - expected: 青春18きっぷ
+    patterns: 青春18切符

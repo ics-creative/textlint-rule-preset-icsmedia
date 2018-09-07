@@ -1,181 +1,144 @@
-# ========================================
-# ウェブ技術に関する固有名詞
-# (手動更新で管理してます)
-# ========================================
-
+meta:
+  - title: ウェブ技術に関する固有名詞ルール
+  - memo: 手動更新で管理してます
 rules:
-
-- expected: デフォルト
-  pattern:  ディフォルト
-
-- pattern: ハードウェアー
-  expected: ハードウェア
-
-- pattern: ソフトウェアー
-  expected: ソフトウェア
-
-- expected: WebGL
-  patterns:
-  - webgl
-  - Webgl
-  - Web GL
-
-- expected: webpack
-  patterns:
-  - Webpack
-  - WebPack
-
-- expected: WordPress
-  patterns:
-  - Wordpress
-  - Word Press
-  - word press
-
-- expected: Adobe MAX
-  patterns:
-  - Adobe Max
-  - AdobeMax
-  - adobemax
-
-# 誤字修正
-- expected: GitHub
-  patterns:
-  - Github
-  - github
-  - Git Hub
-  - git hub
-
-- expected: Facebook
-  patterns:
-  - FaceBook
-
-- expected: VMware
-  patterns:
-  - Vmware
-  - VM ware
-
-- expected: Mbps
-  patterns: MBps
-
-- expected: OpenID
-  patterns:
-  - Open ID
-  - OPEN ID
-
-- expected: PostgreSQL
-  patterns: PostgresSQL
-
-- expected: Amazon Web Services
-  patterns:
-  - Amazon Web Service
-
-- expected: Windows 10
-  patterns: Windows10
-- expected: Windows 8.1
-  patterns: Windows8.1
-- expected: Windows 8
-  patterns: Windows8
-- expected: Windows 7
-  patterns: Windows7
-- expected: Remote Desktop Services
-  patterns: Remote Desktop Service
-- expected: .NET Framework
-  patterns: .NET フレームワーク
-- expected: PowerShell
-  patterns:
-  - Powershell
-  - Power Shell
-- expected: DirectX
-  patterns:
-  - Direct X
-  - direct x
-- expected: Xbox
-  patterns: XBox
-
-- expected: Bootstrap 4
-  patterns:
-  - Bootstrap4
-
-- expected: jQuery
-  patterns:
-  - jquery
-
-- expected: Node.js
-  patterns:
-  - Node.JS
-  - NodeJS
-  - NodeJs
-
-- expected: JavaScript
-  patterns:
-  - Javascript
-  - JAVASCRIPT
-  - Java Script
-
-- expected: ActionScript
-  patterns:
-  - Action Script
-  - Actionscript
-
-- expected: ActionScript 3.0
-  patterns:
-  - ActionScript3
-  - ActionScript3.0
-
-- expected: ECMAScript
-  patterns:
-  - ECMA Script
-  - EcmaScript
-  - Ecmascript
-
-- expected: TypeScript
-  patterns:
-  - Typescript
-  - Type Script
-
-- expected: WebStorm
-  patterns:
-  - WEBStorm
-
-- expected: PhpStorm
-  patterns:
-  - PHPStorm
-
-- expected: Adobe Photoshop
-  patterns:
-  - adobe photoshop
-
-- expected: Photoshop
-  patterns:
-  - PhotoShop
-
-- expected: Premiere Pro
-  patterns:
-  - premiere pro
-
-- expected: After Effects
-  patterns:
-  - /After Effect(?!([s]))/
-  - /after effect(?!([s]))/
-  - /After effect(?!([s]))/
-  - after effects
-  - After effects
-
-
-- expected: Visual Studio Code
-  patterns:
-  - VisualStudio Code
-  - VisualStudioCode
-
-- expected: Visual Studio
-  patterns:
-  - VisualStudio
-  - Visualstudio
-
-- expected: PowerPoint
-  patterns:
-  - Power Point
-  - Powerpoint
-
-- expected: Hyper-V
-  patterns: HyperV
+  - expected: .NET Framework
+    patterns: .NET フレームワーク
+  - expected: ActionScript
+    patterns:
+      - Action Script
+      - Actionscript
+  - expected: ActionScript 3.0
+    patterns:
+      - ActionScript3
+      - ActionScript3.0
+  - expected: Adobe Photoshop
+    patterns:
+      - adobe photoshop
+  - expected: Adobe MAX
+    patterns:
+      - Adobe Max
+      - AdobeMax
+      - adobemax
+  - expected: After Effects
+    patterns:
+      - /After Effect(?!([s]))/
+      - /after effect(?!([s]))/
+      - /After effect(?!([s]))/
+      - after effects
+      - After effects
+  - expected: Amazon Web Services
+    patterns:
+      - Amazon Web Service
+  - expected: Bootstrap 4
+    patterns:
+      - Bootstrap4
+  - expected: DirectX
+    patterns:
+      - Direct X
+      - direct x
+  - expected: ECMAScript
+    patterns:
+      - ECMA Script
+      - EcmaScript
+      - Ecmascript
+  - expected: Facebook
+    patterns:
+      - FaceBook
+  - expected: GitHub
+    patterns:
+      - Github
+      - github
+      - Git Hub
+      - git hub
+  - expected: Hyper-V
+    patterns: HyperV
+  - expected: JavaScript
+    patterns:
+      - Javascript
+      - JAVASCRIPT
+      - Java Script
+  - expected: Mbps
+    patterns: MBps
+  - expected: Node.js
+    patterns:
+      - Node.JS
+      - NodeJS
+      - NodeJs
+  - expected: OpenID
+    patterns:
+      - Open ID
+      - OPEN ID
+  - expected: Photoshop
+    patterns:
+      - PhotoShop
+  - expected: PhpStorm
+    patterns:
+      - PHPStorm
+  - expected: PostgreSQL
+    patterns: PostgresSQL
+  - expected: PowerPoint
+    patterns:
+      - Power Point
+      - Powerpoint
+  - expected: PowerShell
+    patterns:
+      - Powershell
+      - Power Shell
+  - expected: Premiere Pro
+    patterns:
+      - premiere pro
+  - expected: Remote Desktop Services
+    patterns: Remote Desktop Service
+  - expected: TypeScript
+    patterns:
+      - Typescript
+      - Type Script
+  - expected: VMware
+    patterns:
+      - Vmware
+      - VM ware
+  - expected: Visual Studio Code
+    patterns:
+      - VisualStudio Code
+      - VisualStudioCode
+  - expected: Visual Studio
+    patterns:
+      - VisualStudio
+      - Visualstudio
+  - expected: WebStorm
+    patterns:
+      - WEBStorm
+  - expected: WebGL
+    patterns:
+      - webgl
+      - Webgl
+      - Web GL
+  - expected: Windows 8.1
+    patterns: Windows8.1
+  - expected: Windows 8
+    patterns: Windows8
+  - expected: Windows 7
+    patterns: Windows7
+  - expected: Windows 10
+    patterns: Windows10
+  - expected: WordPress
+    patterns:
+      - Wordpress
+      - Word Press
+      - word press
+  - expected: Xbox
+    patterns: XBox
+  - expected: jQuery
+    patterns:
+      - jquery
+  - expected: webpack
+    patterns:
+      - Webpack
+      - WebPack
+  - pattern: ソフトウェアー
+    expected: ソフトウェア
+  - expected: デフォルト
+    pattern: ディフォルト
+  - pattern: ハードウェアー
+    expected: ハードウェア
