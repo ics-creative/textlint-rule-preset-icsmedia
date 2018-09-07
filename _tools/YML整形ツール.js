@@ -17,6 +17,7 @@ yamlFiles.forEach(path => {
   const doc = YAML.parse(fs.readFileSync(path, 'utf8'));
 
   // ソート
+  console.log(path, doc.rules.length);
   doc.rules = doc.rules.sort(comparePrhItem);
 
   // YAML化
@@ -24,6 +25,4 @@ yamlFiles.forEach(path => {
 
   // 書き込み
   fs.writeFileSync(path, yamlStr);
-
-  console.log(path, yamlStr)
 });
