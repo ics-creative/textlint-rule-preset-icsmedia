@@ -88,6 +88,12 @@ rules:
       - MacBook pro
       - MacBookpro
       - MacBookPro
+  - expected: macOS
+    patterns:
+      - MAC OS X
+      - Mac OS X
+      - OS X
+      - MacOS
   - expected: Mbps
     patterns: MBps
   - expected: Node.js
