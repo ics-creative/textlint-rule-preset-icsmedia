@@ -26,8 +26,6 @@ rules:
     patterns: ご多聞にもれず
   - expected: ご清聴ありがとう
     patterns: ご静聴ありがとう
-  - expected: ご自愛ください
-    patterns: お体をご自愛ください
   - expected: しかつめらしい
     patterns: しかめつらしい
   - patterns: したづつみを打つ
@@ -98,10 +96,6 @@ rules:
     patterns: 出所進退
   - expected: 勘違い
     patterns: 感違い
-  - expected: 募金を呼び掛ける
-    patterns: 募金を募る
-  - expected: 半数を超える
-    patterns: 過半数を超える
   - patterns: 短刀直入
     expected: 単刀直入
   - patterns: 危機一発
@@ -164,14 +158,8 @@ rules:
     patterns: 遅れを取る
   - expected: 後ろ盾
     patterns: 後ろ立て
-  - patterns: 後で後悔する
-    expected: 後悔する
   - expected: 後足で砂をかける　
     patterns: 後ろ足で砂をかける
-  - expected: 従来
-    patterns:
-      - 従来から
-      - 従来より
   - expected: 心血を注ぐ
     patterns: 心血を傾ける
   - expected: 必要がある
@@ -192,10 +180,6 @@ rules:
     patterns: 初期の目的
   - expected: 押しも押されもせぬ
     patterns: 押しも押されぬ
-  - expected: 挙式
-    patterns: 挙式を挙げる
-  - expected: 捺印する
-    patterns: 捺印を押す
   - patterns: 数えられるほどしかない
     expected: 数えるほどしかない
   - expected: 新規蒔き直し
@@ -228,8 +212,6 @@ rules:
     patterns: 非を見るよりも明らか
   - expected: 火蓋が切られる
     patterns: 火蓋が切って落とされる
-  - patterns: 炎天下のもと
-    expected: 炎天下
   - expected: 無理からぬ
     patterns: 無理ならぬ
   - expected: 焼けぼっくいに火が付く
@@ -264,12 +246,8 @@ rules:
     patterns: 精魂尽きる
   - expected: 絶体絶命
     patterns: 絶対絶命
-  - expected: 罪を犯す
-    patterns: 犯罪を犯す
   - expected: 肝に銘じる
     patterns: 肝に命じる
-  - expected: 肴
-    patterns: 酒の肴
   - expected: 胸三寸
     patterns: 胸先三寸
   - expected: 脚光を浴びる
@@ -284,8 +262,6 @@ rules:
     patterns: 舌の先の乾かぬうちに
   - expected: 舌先三寸
     patterns: 口先三寸
-  - patterns: 馬から落馬
-    expected: 落馬
   - expected: 被害を受ける
     patterns: 被害を被る
   - patterns: 見かけ倒れ
