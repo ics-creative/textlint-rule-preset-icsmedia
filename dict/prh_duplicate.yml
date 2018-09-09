@@ -1,0 +1,93 @@
+meta:
+  - title: 間違いやすい慣用表現ルール
+  - memo: 手動更新で管理してます
+rules:
+  - expected: ご自愛ください
+    pattern: お体をご自愛ください
+  - expected: デビュー
+    pattern: 初デビュー
+  - expected: バックした
+    pattern: 後ろへバックした
+  - expected: メーカー
+    pattern: 製造メーカー
+  - expected: ラストシーン
+    pattern: 最後のラストシーン
+  - expected: 今
+    pattern: 今、現在
+  - expected: 内定する
+    pattern: 内定が決まる
+  - expected: 最初
+    pattern: いちばん最初
+  - expected: 最初に
+    pattern: まず最初に
+  - expected: 最後
+    pattern: いちばん最後
+  - expected: 最適
+    patterns:
+      - 最も最適
+      - もっとも最適
+  - expected: 切り札
+    pattern: 最後の切り札
+  - expected: 募金を呼び掛ける
+    pattern: 募金を募る
+  - expected: 半数を超える
+    pattern: 過半数を超える
+  - expected: 収入があった
+    pattern: 収入が入った
+  - expected: 増水
+    pattern: 水が増水
+  - expected: 壮大な眺め
+    pattern: 壮観な眺め
+  - expected: 変色する
+    pattern: 色が変色する
+  - expected: 年内に
+    pattern: 年内中に
+  - expected: 後悔する
+    pattern: 後で後悔する
+  - expected: 従来
+    patterns:
+      - 従来から
+      - 従来より
+  - expected: 必要
+    pattern: 必ず必要
+  - expected: 懸念
+    pattern: かねてからの懸念
+  - expected: 挙式
+    pattern: 挙式を挙げる
+  - expected: 捺印する
+    pattern: 捺印を押す
+  - expected: 放水
+    pattern: 水を放水
+  - expected: 断言する
+    pattern: はっきりと断言する
+  - expected: 時期尚早
+    pattern: まだ時期尚早
+  - expected: 未完成
+    pattern: いまだに未完成
+  - expected: 未解決
+    pattern: まだ未解決
+  - expected: 来日
+    pattern: 日本に来日
+  - expected: 炎天下
+    pattern: 炎天下のもと
+  - expected: 熟慮する
+    pattern: 慎重に熟慮する
+  - expected: 現状
+    pattern: 今の現状
+  - expected: 発端
+    pattern: そもそもの発端
+  - expected: 範囲内で
+    pattern: 範囲内の中で
+  - expected: 罪を犯す
+    pattern: 犯罪を犯す
+  - expected: 肴
+    pattern: 酒の肴
+    prh: 「酒のアテ」でもいいかも
+  - expected: 落馬
+    pattern: 馬から落馬
+  - expected: 血痕が
+    pattern: 血痕の跡が
+  - expected: 車間距離
+    pattern: 車の車間距離
+  - expected: 追い込み
+    pattern: 最後の追い込み
