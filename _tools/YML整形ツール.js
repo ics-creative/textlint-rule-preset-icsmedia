@@ -10,6 +10,7 @@ const yamlFiles = [
   './dict/prh_open_close.yml',
   './dict/prh_redundancy.yml',
   './dict/prh_web_technology.yml',
+  './dict/prh_duplicate.yml',
 ];
 
 yamlFiles.forEach(path => {
