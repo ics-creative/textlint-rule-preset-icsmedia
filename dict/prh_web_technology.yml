@@ -69,6 +69,11 @@ rules:
       - Javascript
       - JAVASCRIPT
       - Java Script
+  - expected: Jetpack
+    patterns:
+      - JetPack
+      - Jet Pack
+      - Jet pack
   - expected: jQuery
     patterns:
       - jquery
