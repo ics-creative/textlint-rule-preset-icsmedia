@@ -30,9 +30,8 @@
 
     "prh": {
       "rulePaths": [
-          "./dict/prh.yml",
-          "./dict/prh_techbooster.yml"
-        ]
+         "./dict/prh.yml"
+      ]
     }
   }
 }
