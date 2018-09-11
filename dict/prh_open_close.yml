@@ -11,9 +11,6 @@ rules:
   - pattern: 予め
     expected: あらかじめ
     prh: ひらがなで書くと読みやすくなります（ひらく漢字）
-  - expected: あらかじめ
-    pattern: 予め
-    prh: ひらがなで書くと読みやすくなります（ひらく漢字）
   - expected: ある
     patterns:
       - 有る
@@ -50,6 +47,9 @@ rules:
     prh: カタカナで書くと読みやすくなります（ひらく漢字）
   - pattern: 面白い
     expected: おもしろい
+    prh: ひらがなで書くと読みやすくなります（ひらく漢字）
+  - expected: および
+    pattern: 及び
     prh: ひらがなで書くと読みやすくなります（ひらく漢字）
   - expected: かかわらず
     pattern: /関わ?らず/
@@ -90,17 +90,23 @@ rules:
   - expected: すでに
     pattern: 既に
     prh: ひらがなで書くと読みやすくなります（ひらく漢字）
-  - pattern: 全て
-    expected: すべて
-    prh: ひらがなで書くと読みやすくなります（ひらく漢字）
   - expected: すべて
     pattern: /(全て|総て)/
+    prh: ひらがなで書くと読みやすくなります（ひらく漢字）
+  - pattern: 全て
+    expected: すべて
     prh: ひらがなで書くと読みやすくなります（ひらく漢字）
   - pattern: そう言う
     expected: そういう
     prh: ひらがなで書くと読みやすくなります（ひらく漢字）
   - pattern: そんな風な
     expected: そんなふうな
+    prh: ひらがなで書くと読みやすくなります（ひらく漢字）
+  - expected: たくさん
+    pattern: 沢山
+    prh: ひらがなで書くと読みやすくなります（ひらく漢字）
+  - expected: ただし
+    pattern: 但し
     prh: ひらがなで書くと読みやすくなります（ひらく漢字）
   - expected: たとえば
     pattern: 例えば
@@ -137,6 +143,9 @@ rules:
     prh: ひらがなで書くと読みやすくなります（ひらく漢字）
   - pattern: 何故か
     expected: なぜか
+    prh: ひらがなで書くと読みやすくなります（ひらく漢字）
+  - expected: ならびに
+    pattern: 並びに
     prh: ひらがなで書くと読みやすくなります（ひらく漢字）
   - expected: なる
     pattern: 成る
