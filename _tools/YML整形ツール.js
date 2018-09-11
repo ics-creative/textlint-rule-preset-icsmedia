@@ -14,7 +14,7 @@ const yamlFiles = [
 ];
 
 yamlFiles.forEach(path => {
-
+  console.log(path);
   const doc = YAML.parse(fs.readFileSync(path, 'utf8'));
 
   // ソート
