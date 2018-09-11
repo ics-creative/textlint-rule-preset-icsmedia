@@ -23,6 +23,9 @@ rules:
   - expected: お眼鏡にかなう
     patterns: お目にかなう
     prh: （誤字）
+  - expected: コード補完
+    pattern: コード保管
+    prh: （誤字）
   - expected: こぢんまり
     patterns: こじんまり
     prh: （誤字）

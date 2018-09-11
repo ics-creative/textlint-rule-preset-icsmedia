@@ -2,23 +2,46 @@ meta:
   - title: 漢字の閉じ開きルール
   - memo: 手動更新で管理してます
 rules:
+  - expected: $1あとで
+    pattern: /(して|した|、)後で/
+    specs:
+      - from: して後で
+        to: してあとで
+    prh: ひらがなで書くと読みやすくなります（ひらく漢字）
   - pattern: 予め
     expected: あらかじめ
     prh: ひらがなで書くと読みやすくなります（ひらく漢字）
-  - pattern: 有る
-    expected: ある
+  - expected: あらかじめ
+    pattern: 予め
     prh: ひらがなで書くと読みやすくなります（ひらく漢字）
-  - pattern: 在る
-    expected: ある
+  - expected: ある
+    patterns:
+      - 有る
+      - 在る
+    prh: ひらがなで書くと読みやすくなります（ひらく漢字）
+  - expected: あるいは
+    pattern: 或いは
+    prh: ひらがなで書くと読みやすくなります（ひらく漢字）
+  - expected: いくつか
+    pattern: 幾つか
+    prh: ひらがなで書くと読みやすくなります（ひらく漢字）
+  - expected: いずれ
+    pattern: 何れ
     prh: ひらがなで書くと読みやすくなります（ひらく漢字）
   - pattern: 何時か
     expected: いつか
+    prh: ひらがなで書くと読みやすくなります（ひらく漢字）
+  - expected: いったん
+    pattern: 一旦
     prh: ひらがなで書くと読みやすくなります（ひらく漢字）
   - pattern: 未だに
     expected: いまだに
     prh: ひらがなで書くと読みやすくなります（ひらく漢字）
   - pattern: 所謂
     expected: いわゆる
+    prh: ひらがなで書くと読みやすくなります（ひらく漢字）
+  - expected: うまく
+    pattern: 巧く
     prh: ひらがなで書くと読みやすくなります（ひらく漢字）
   - patterns:
       - お勧め
@@ -28,11 +51,35 @@ rules:
   - pattern: 面白い
     expected: おもしろい
     prh: ひらがなで書くと読みやすくなります（ひらく漢字）
+  - expected: かかわらず
+    pattern: /関わ?らず/
+    specs:
+      - from: 関わらず
+        to: かかわらず
+      - from: 関らず
+        to: かかわらず
+    prh: ひらがなで書くと読みやすくなります（ひらく漢字）
   - pattern: 下さい
     expected: ください
     prh: ひらがなで書くと読みやすくなります（ひらく漢字）
+  - expected: さきほど
+    pattern: 先程
+    prh: ひらがなで書くと読みやすくなります（ひらく漢字）
+  - expected: さまざま
+    pattern: 様々
+    prh: ひらがなで書くと読みやすくなります（ひらく漢字）
+  - expected: さらに
+    pattern: /(変)?更に/
+    regexpMustEmpty: $1
+    prh: ひらがなで書くと読みやすくなります（ひらく漢字）
+    specs:
+      - from: 変更に
+        to: 変更に
   - pattern: 次第に
     expected: しだいに
+    prh: ひらがなで書くと読みやすくなります（ひらく漢字）
+  - expected: したがって
+    pattern: 従って
     prh: ひらがなで書くと読みやすくなります（ひらく漢字）
   - pattern: して頂く
     expected: していただく
@@ -40,8 +87,14 @@ rules:
   - pattern: 凄い
     expected: すごい
     prh: ひらがなで書くと読みやすくなります（ひらく漢字）
+  - expected: すでに
+    pattern: 既に
+    prh: ひらがなで書くと読みやすくなります（ひらく漢字）
   - pattern: 全て
     expected: すべて
+    prh: ひらがなで書くと読みやすくなります（ひらく漢字）
+  - expected: すべて
+    pattern: /(全て|総て)/
     prh: ひらがなで書くと読みやすくなります（ひらく漢字）
   - pattern: そう言う
     expected: そういう
@@ -49,8 +102,23 @@ rules:
   - pattern: そんな風な
     expected: そんなふうな
     prh: ひらがなで書くと読みやすくなります（ひらく漢字）
+  - expected: たとえば
+    pattern: 例えば
+    prh: ひらがなで書くと読みやすくなります（ひらく漢字）
+  - expected: ちょうど
+    pattern: /(丁度|調度)/
+    prh: ひらがなで書くと読みやすくなります（ひらく漢字）
+  - expected: でき$1
+    pattern: /出来(る|て|た|ま|上が)/
+    specs:
+      - from: 出来上がった
+        to: でき上がった
+    prh: ひらがなで書くと読みやすくなります（ひらく漢字）
   - pattern: 出来る
     expected: できる
+    prh: ひらがなで書くと読みやすくなります（ひらく漢字）
+  - expected: どういうとき
+    pattern: どういう時
     prh: ひらがなで書くと読みやすくなります（ひらく漢字）
   - pattern: 時々
     expected: ときどき
@@ -64,11 +132,29 @@ rules:
   - pattern: 無い
     expected: ない
     prh: ひらがなで書くと読みやすくなります（ひらく漢字）
+  - expected: なぜ
+    pattern: 何故
+    prh: ひらがなで書くと読みやすくなります（ひらく漢字）
   - pattern: 何故か
     expected: なぜか
     prh: ひらがなで書くと読みやすくなります（ひらく漢字）
+  - expected: なる
+    pattern: 成る
+    prh: ひらがなで書くと読みやすくなります（ひらく漢字）
   - pattern: 捗る
     expected: はかどる
+    prh: ひらがなで書くと読みやすくなります（ひらく漢字）
+  - expected: はじめて
+    pattern: 初めて
+    prh: ひらがなで書くと読みやすくなります（ひらく漢字）
+  - expected: はやる
+    pattern: 流行る
+    prh: ひらがなで書くと読みやすくなります（ひらく漢字）
+  - expected: ひととおり
+    pattern: /(一|ひと)通り/
+    prh: ひらがなで書くと読みやすくなります（ひらく漢字）
+  - expected: ほとんど
+    pattern: 殆ど
     prh: ひらがなで書くと読みやすくなります（ひらく漢字）
   - pattern: 殆ど
     expected: ほとんど
@@ -76,11 +162,31 @@ rules:
   - pattern: 真面目に
     expected: まじめに
     prh: ひらがなで書くと読みやすくなります（ひらく漢字）
+  - expected: まったく
+    pattern: 全く
+    prh: ひらがなで書くと読みやすくなります（ひらく漢字）
   - pattern: 無駄
     expected: ムダ
     prh: カタカナで書くと読みやすくなります（ひらく漢字）
+  - expected: もっとも
+    pattern: 最も
+    prh: ひらがなで書くと読みやすくなります（ひらく漢字）
+  - expected: もっぱら
+    pattern: 専ら
+    prh: ひらがなで書くと読みやすくなります（ひらく漢字）
+  - expected: もら$1
+    pattern: /貰(う|い)/
+    prh: ひらがなで書くと読みやすくなります（ひらく漢字）
+    specs:
+      - from: 貰う
+        to: もらう
+      - from: 貰い
+        to: もらい
   - pattern: 易い
     expected: やすい
+    prh: ひらがなで書くと読みやすくなります（ひらく漢字）
+  - expected: ゆえに
+    pattern: 故に
     prh: ひらがなで書くと読みやすくなります（ひらく漢字）
   - pattern: 分かる
     expected: わかる
