@@ -35,9 +35,6 @@ rules:
   - expected: できる
     pattern: することができる
     prh: 冗長な表現ではないでしょうか？（冗長な表現）
-  - expected: なりまして
-    pattern: なってしまって
-    prh: 口語表現ではないでしょうか？（冗長な表現）
   - expected: 伺います
     pattern: 伺わせていただきます
     prh: 謙譲語の二重敬語（冗長な表現）
