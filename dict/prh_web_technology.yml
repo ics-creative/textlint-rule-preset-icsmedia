@@ -86,6 +86,12 @@ rules:
   - expected: Hyper-V
     patterns: HyperV
     prh: （技術用語）
+  - expected: iPhone XR
+    pattern: iPhone Xr
+    prh: （技術用語）
+  - expected: iPhone XS
+    pattern: iPhone Xs
+    prh: （技術用語）
   - expected: JavaScript
     patterns:
       - Javascript
@@ -237,12 +243,12 @@ rules:
       - You Tube
       - you tube
     prh: （技術用語）
-  - pattern: ソフトウェアー
-    expected: ソフトウェア
+  - expected: ソフトウェア
+    pattern: ソフトウェアー
     prh: （技術用語）
   - expected: デフォルト
     pattern: ディフォルト
     prh: （技術用語）
-  - pattern: ハードウェアー
-    expected: ハードウェア
+  - expected: ハードウェア
+    pattern: ハードウェアー
     prh: （技術用語）
