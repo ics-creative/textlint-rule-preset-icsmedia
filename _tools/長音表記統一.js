@@ -332,7 +332,7 @@ const arr = list.map(str => {
   return `
   - pattern: /${original}(?!([ーァ-ヴ]))/
     expected: ${str}
-    prh: 語尾が -er, -or, -ar で終わる語彙には長音を付けます`;
+    prh: 語尾が -er, -or, -ar で終わる語彙には長音を付けます（外来語カタカナ表記）`;
 });
 
 arr.unshift(
@@ -347,4 +347,4 @@ arr.unshift(
 );
 
 const fs = require('fs');
-fs.writeFile('./dict/prh_cho_on.yml', arr.join('\n'));
+fs.writeFileSync('./dict/prh_cho_on.yml', arr.join('\n'));

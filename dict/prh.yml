@@ -7,29 +7,26 @@ version: 1
 
 # 校正辞書はモジュールとして分離してます
 imports:
-  # 慣用表現
+  # 誤字
   - ./prh_idiom.yml
 
-  # 漢字の閉じ開き
+  # ひらく漢字
   - ./prh_open_close.yml
 
-  # 情調な日本語表現
+  # 冗長な表現
   - ./prh_redundancy.yml
 
   # 重言
   - ./prh_duplicate.yml
 
-  # 長音表記
+  # 外来語カタカナ表記
   - ./prh_cho_on.yml
 
-  # 社名やブランド名
+  # 固有名詞
   - ./prh_corporation.yml
 
-  # ウェブ技術の名詞
+  # 技術用語
   - ./prh_web_technology.yml
-
-  # テックブースターを利用
-  - ./prh_techbooster.yml
 
 # ルールは以下を参照。
 # https://github.com/vvakame/prh/tree/master/misc
