@@ -56,14 +56,24 @@ rules:
   - expected: Facebook
     patterns:
       - FaceBook
+  - expected: Firefox
+    patterns: FireFox
   - expected: GitHub
     patterns:
       - Github
       - github
       - Git Hub
       - git hub
+  - expected: Google Maps
+    patterns:
+      - /Google Map(?!([s]))/
+      - /Google map(?!([s]))/
+      - GoogleMap
+      - GoogleMaps
   - expected: Hyper-V
     patterns: HyperV
+  - expected: iTunes
+    patterns: /iTune(?!([s]))/
   - expected: JavaScript
     patterns:
       - Javascript
