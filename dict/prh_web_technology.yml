@@ -226,6 +226,10 @@ rules:
       - Webgl
       - Web GL
     prh: （技術用語）
+  - expected: WebGPU
+    patterns:
+      - WebGpu
+    prh: （技術用語）
   - expected: webpack
     patterns:
       - Webpack
