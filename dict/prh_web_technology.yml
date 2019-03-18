@@ -8,6 +8,11 @@ rules:
   - expected: .NET Framework
     patterns: .NET フレームワーク
     prh: （技術用語）
+
+  - pattern: インターフェース
+    expected: インターフェイス
+    prh:  （技術用語）
+
   - expected: 。
     pattern: ．
     prh: カンマとコンマではなく句点読点を使います（技術用語）
