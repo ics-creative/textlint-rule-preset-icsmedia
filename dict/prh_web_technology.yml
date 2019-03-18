@@ -81,12 +81,25 @@ rules:
     patterns:
       - FaceBook
     prh: （技術用語）
+  - expected: Firefox
+    patterns: FireFox
+    prh: （技術用語）
   - expected: GitHub
     patterns:
       - Github
       - github
       - Git Hub
       - git hub
+    prh: （技術用語）
+  - expected: Google Maps
+    patterns:
+      - /Google Map(?!([s]))/
+      - /Google map(?!([s]))/
+      - GoogleMap
+      - GoogleMaps
+    prh: （技術用語）
+  - expected: Hyper-V
+    patterns: HyperV
     prh: （技術用語）
   - expected: Hyper-V
     patterns: HyperV
@@ -96,6 +109,9 @@ rules:
     prh: （技術用語）
   - expected: iPhone XS
     pattern: iPhone Xs
+    prh: （技術用語）
+  - expected: iTunes
+    patterns: /iTune(?!([s]))/
     prh: （技術用語）
   - expected: JavaScript
     patterns:
@@ -214,6 +230,10 @@ rules:
       - webgl
       - Webgl
       - Web GL
+    prh: （技術用語）
+  - expected: WebGPU
+    patterns:
+      - WebGpu
     prh: （技術用語）
   - expected: webpack
     patterns:
