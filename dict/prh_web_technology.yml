@@ -55,7 +55,7 @@ rules:
     prh: （技術用語）
   - expected: Amazon Web Services
     patterns:
-      - Amazon Web Service
+      - /Amazon Web Service([^s]|$)/
     prh: （技術用語）
   - expected: Bootstrap 4
     patterns:
