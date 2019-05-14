@@ -145,7 +145,8 @@ rules:
     expected: なぜか
     prh: ひらがなで書くと読みやすくなります（ひらく漢字）
   - expected: ならびに
-    pattern: 並びに
+    pattern: ([横縦])?並びに
+    regexpMustEmpty: $1
     prh: ひらがなで書くと読みやすくなります（ひらく漢字）
   - expected: なる
     pattern: 成る
