@@ -8,11 +8,6 @@ rules:
   - expected: .NET Framework
     patterns: .NET フレームワーク
     prh: （技術用語）
-
-  - pattern: インターフェース
-    expected: インターフェイス
-    prh:  （技術用語）
-
   - expected: 。
     pattern: ．
     prh: カンマとコンマではなく句点読点を使います（技術用語）
@@ -169,6 +164,9 @@ rules:
       - Open ID
       - OPEN ID
     prh: （技術用語）
+  - expected: OpenType
+    pattern: Open Type
+    prh: （技術用語）
   - expected: Photoshop
     patterns:
       - PhotoShop
@@ -196,6 +194,9 @@ rules:
     prh: （技術用語）
   - expected: Remote Desktop Services
     patterns: Remote Desktop Service
+    prh: （技術用語）
+  - expected: TrueType
+    pattern: True Type
     prh: （技術用語）
   - expected: TypeScript
     patterns:
@@ -270,6 +271,9 @@ rules:
       - Youtube
       - You Tube
       - you tube
+    prh: （技術用語）
+  - pattern: インターフェース
+    expected: インターフェイス
     prh: （技術用語）
   - expected: ソフトウェア
     pattern: ソフトウェアー
