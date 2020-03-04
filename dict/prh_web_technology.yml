@@ -56,10 +56,10 @@ rules:
     patterns:
       - Bootstrap4
     prh: （技術用語）
-  - expected: ChatWork
+  - expected: Chatwork
     patterns:
       - Chat Work
-      - Chatwork
+      - ChatWork
     prh: （技術用語）
   - expected: DirectX
     patterns:
