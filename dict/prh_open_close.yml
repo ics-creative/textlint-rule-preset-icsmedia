@@ -196,7 +196,7 @@ rules:
     expected: やすい
     prh: ひらがなで書くと読みやすくなります（ひらく漢字）
   - expected: ゆえに
-    pattern: 故に
+    pattern: /(?<!事)故に/
     prh: ひらがなで書くと読みやすくなります（ひらく漢字）
   - pattern: 分かる
     expected: わかる
