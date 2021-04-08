@@ -82,7 +82,7 @@ rules:
   - expected: GitHub
     patterns:
       - Github
-      - github
+      - /github(?!([\.com]))/
       - Git Hub
       - git hub
     prh: （技術用語）
