@@ -2,15 +2,9 @@ meta:
   - title: ウェブ技術に関する固有名詞ルール
   - memo: 手動更新で管理してます
 rules:
-  - expected: 、
-    pattern: ，
-    prh: カンマとコンマではなく句点読点を使います（技術用語）
   - expected: .NET Framework
     patterns: .NET フレームワーク
     prh: （技術用語）
-  - expected: 。
-    pattern: ．
-    prh: カンマとコンマではなく句点読点を使います（技術用語）
   - expected: ActionScript
     patterns:
       - Action Script
