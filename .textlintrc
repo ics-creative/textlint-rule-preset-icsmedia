@@ -11,7 +11,7 @@
         "min_interval" : 1,
         "strict": false,
         "allow": ["も", "や", "か"],
-        "separatorChars": ["、", "。", "?", "!", "？", "！", "「",  "」", "“", "”", "/"]
+        "separatorChars": ["、", "。", "?", "!", "？", "！", "「",  "」", "“", "”", "/", "／"]
       },
       "no-mix-dearu-desumasu": true
     },
